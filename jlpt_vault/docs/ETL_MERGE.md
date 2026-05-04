@@ -12,7 +12,7 @@ Migrations live in [`../schema`](../schema). They are copied from the N3 app pip
 - `grammar_cards` (FK `grammar_id` → `grammar_rules`)
 - `user_vocabulary_progress`, `user_grammar_progress` (app-local; usually not merged from exports)
 
-Apply to the Docker Postgres instance (see root [`README.md`](../README.md)):
+Apply to the Docker Postgres instance (see monorepo root [`README.md`](../../README.md) and [`jlpt_vault/README.md`](../README.md)):
 
 ```bash
 # From jlpt_vault/, with goose installed. Set DATABASE_URL yourself (see .env.example).

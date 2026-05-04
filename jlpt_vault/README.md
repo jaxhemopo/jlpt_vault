@@ -10,7 +10,7 @@ I originally hacked together an N3-focused study app because I was sitting the J
 
 ## What I actually did vs where I got help
 
-On the **backend / data** side I leaned on what I picked up from **Boot.dev** (Postgres, thinking in schemas, small Go tools, not treating the database like a junk drawer). Each JLPT level has its own **factory folder** next to this one in the repo: CSVs → Docker Postgres → generate / audit / fix loops (LLM-assisted) → export SQLite → bundle into the app.
+On the **backend / data** side I leaned on what I picked up from **Boot.dev** (Postgres, thinking in schemas, small Go tools, not treating the database like a junk drawer). Each JLPT level has its own **factory folder** next to this one (`n1_app/`, `n2_app/`, …) so prompts, furigana policy, and SQL scoping can differ — they are not one generic template. Flow is always **seed → categorize → multi-LLM loops (generator / auditor / fixer for vocab; gen_grammar / aud_grammar / fixer_grammar for grammar) → exporter → per-level `.db`**. See the root [`README.md`](../README.md) for the full picture and each factory’s `cmd/database_gen.md` for exact commands.
 
 I have **basically no frontend background** and I’m not a Flutter/Dart person. For **UI and UX** I used AI heavily to get screens that don’t look like I drew them in MS Paint, then I wired things up, broke them, fixed them, and lived with whatever Apple’s review process threw at me. I still own the architecture, the data pipeline, and what ships.
 
