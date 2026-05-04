@@ -52,6 +52,7 @@ app.*.map.json
 # Protect the 4,750+ parsed items and SQLite logic
 *.csv
 *.json
+!web/manifest.json
 *.db
 *.sqlite
 *.sql
