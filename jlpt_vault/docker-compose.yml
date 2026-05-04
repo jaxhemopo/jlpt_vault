@@ -1,0 +1,16 @@
+# JLPT Vault — unified Postgres for merged N5–N1 pipeline (dev / ETL).
+# Host port 5433 avoids clashing with per-level stacks on 5432.
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-dev_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-dev_password}
+      POSTGRES_DB: ${POSTGRES_DB:-jlpt_vault}
+    ports:
+      - "5433:5432"
+    volumes:
+      - jlpt_vault_pgdata:/var/lib/postgresql/data
+
+volumes:
+  jlpt_vault_pgdata:

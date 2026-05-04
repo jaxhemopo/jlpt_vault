@@ -1,0 +1,48 @@
+# Secrets and local env (never commit real keys)
+.env
+.env.*
+!.env.example
+**/.env
+!**/.env.example
+
+# OS / editor
+.DS_Store
+**/.DS_Store
+.idea/
+*.swp
+*.swo
+
+# Mobile signing / Google (if added later)
+**/google-services.json
+**/GoogleService-Info.plist
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# Logs and temp
+*.log
+**/flutter_log.txt
+tmp/
+temp/
+
+# Flutter & Dart (regenerate with flutter pub get / build)
+**/build/
+**/.dart_tool/
+**/ios/Pods/
+**/ios/.symlinks/
+**/macos/Pods/
+**/android/.gradle/
+**/android/captures/
+**/*.xcarchive/
+**/DerivedData/
+
+# Local DB artifacts (factory exports / SQLite — regenerate from Postgres pipelines)
+*.db
+*.sqlite
+
+# Large one-off SQL dumps (keep schema/*.sql in jlpt_vault & per-app schema dirs)
+n3_backup.sql
+
+# Optional local archive folder
+Archive/

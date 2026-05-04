@@ -1,0 +1,27 @@
+# ==========================================
+# COMMERCIAL DATA PROTECTION (Proprietary)
+# ==========================================
+# Protect the 4,750+ parsed items and SQLite logic
+*.csv
+*.json
+*.db
+*.sqlite
+*.sql
+!schema/*.sql
+!data_pipeline/postgres_schema.sql  # Keep the schema, hide the data
+!data_pipeline/sample_data.csv      # Allow a 3-row sample for recruiters
+
+# ==========================================
+# ENV & SECRETS
+# ==========================================
+.env
+config.py
+secrets/
+
+# ==========================================
+# DATA PIPELINE / ETL WORKSPACE
+# ==========================================
+# Hide raw LLM audit logs and intermediate "dirty" data
+data_pipeline/logs/
+data_pipeline/temp/
+migrate_working_dir/

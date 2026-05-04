@@ -1,0 +1,1770 @@
+example_sentences: non-verified rows in BACKUP dump vs LIVE postgres (mastermind_vault)
+Backup file: mastermind_vault_backup_2026-04-05_11-05.sql
+Total non-verified in backup: 82
+Present in live: 77
+Missing in live: 5 — ids: 3392, 4318, 3403, 3404, 3391
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+id=96
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 15
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to other N4+ kanji
+sentence_jp:
+私たち[わたしたち]はこの提案[ていあん]に賛成[さんせい]いたします。
+sentence_en:
+We would like to express our agreement with this proposal.
+
+--- LIVE (postgres) ---
+vocab_id: 38
+audit_status: flagged
+audit_comment: The target word '別' (separate) does not appear in the sentence.
+sentence_jp:
+私たち[わたしたち]はこの提案[ていあん]に賛成[さんせい]いたします。
+sentence_en:
+We would like to express our agreement with this proposal.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=99
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 17
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to 毎日[まいにち], 取[と]る, 入[い]れる, 大切[たいせつ]
+sentence_jp:
+毎日[まいにち]、酸素[さんそ]を取り[とり]入[い]れることが大切[たいせつ]です。
+sentence_en:
+It's important to take in oxygen every day.
+
+--- LIVE (postgres) ---
+vocab_id: 40
+audit_status: flagged
+audit_comment: The target word 'お宅' (your home) is not present in the sentence.
+sentence_jp:
+毎日[まいにち]、酸素[さんそ]を取り[とり]入[い]れることが大切[たいせつ]です。
+sentence_en:
+It's important to take in oxygen every day.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=100
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 17
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to 人体[じんたい], 機能[きのう], 不可欠[ふかけつ], 要素[ようそ], 適切[てきせつ], 供給[きょうきゅう], 求[もと]める
+sentence_jp:
+酸素[さんそ]は人体[じんたい]の機能[きのう]に不可欠[ふかけつ]な要素[ようそ]であり、適切[てきせつ]な供給[きょうきゅう]が求[もと]められます。
+sentence_en:
+Oxygen is an essential element for the body's functions, and proper supply is required.
+
+--- LIVE (postgres) ---
+vocab_id: 40
+audit_status: flagged
+audit_comment: The target word 'お宅' (your home) is not present in the sentence.
+sentence_jp:
+酸素[さんそ]は人体[じんたい]の機能[きのう]に不可欠[ふかけつ]な要素[ようそ]であり、適切[てきせつ]な供給[きょうきゅう]が求[もと]められます。
+sentence_en:
+Oxygen is an essential element for the body's functions, and proper supply is required.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=139
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 38
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furugana
+sentence_jp:
+毎月[まいつき]の支出[ししゅつ]を見直[みなお]すことは大切[たいせつ]です。
+sentence_en:
+It's important to review your monthly expenses.
+
+--- LIVE (postgres) ---
+vocab_id: 66
+audit_status: flagged
+audit_comment: The target word '彼' (he) does not appear in the sentence.
+sentence_jp:
+毎月[まいつき]の支出[ししゅつ]を見直[みなお]すことは大切[たいせつ]です。
+sentence_en:
+It's important to review your monthly expenses.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=140
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 38
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furugana
+sentence_jp:
+当社[とうしゃ]の支出[ししゅつ]分析[ぶんせき]に基[もと]づき、予算[よさん]の見直[みなお]しを提案[ていあん]いたします。
+sentence_en:
+Based on our company's expense analysis, we propose a review of the budget.
+
+--- LIVE (postgres) ---
+vocab_id: 66
+audit_status: flagged
+audit_comment: The target word '彼' (he) is not present in the sentence.
+sentence_jp:
+当社[とうしゃ]の支出[ししゅつ]分析[ぶんせき]に基[もと]づき、予算[よさん]の見直[みなお]しを提案[ていあん]いたします。
+sentence_en:
+Based on our company's expense analysis, we propose a review of the budget.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=143
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 40
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furi
+sentence_jp:
+私は有名な詩人[しじん]の本[ほん]を読み[よみ]ながら、心[こころ]が和[なご]みました。
+sentence_en:
+While reading a book by a famous poet, my heart felt at ease.
+
+--- LIVE (postgres) ---
+vocab_id: 68
+audit_status: flagged
+audit_comment: The target word '布団' (futon) is not present in the sentence.
+sentence_jp:
+私は有名な詩人[しじん]の本[ほん]を読み[よみ]ながら、心[こころ]が和[なご]みました。
+sentence_en:
+While reading a book by a famous poet, my heart felt at ease.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=144
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 40
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furi
+sentence_jp:
+当社[とうしゃ]では、詩人[しじん]とのコラボレーション[こらぼれーしょん]を通[つう]じて、独自[どくじ]の感性[かんせい]を表現[ひょうげん]した作品[さくひん]を創造[そうぞう]したいと考[かんが]えています。
+sentence_en:
+Our company wants to create works that express our unique sensibility through collaboration with a poet.
+
+--- LIVE (postgres) ---
+vocab_id: 68
+audit_status: flagged
+audit_comment: The target word '布団' (futon) is not present in the sentence.
+sentence_jp:
+当社[とうしゃ]では、詩人[しじん]とのコラボレーション[こらぼれーしょん]を通[つう]じて、独自[どくじ]の感性[かんせい]を表現[ひょうげん]した作品[さくひん]を創造[そうぞう]したいと考[かんが]えています。
+sentence_en:
+Our company wants to create works that express our unique sensibility through collaboration with a poet.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=193
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 65
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to other N4+ kanji
+sentence_jp:
+私[わたし]の上司[じょうし]はスタッフの指導[しどう]をとても熱心[ねっしん]に行[おこな]っています。
+sentence_en:
+My boss is very enthusiastic about guiding the staff.
+
+--- LIVE (postgres) ---
+vocab_id: 81
+audit_status: verified
+audit_comment: 
+sentence_jp:
+私[わたし]の上司[じょうし]はスタッフの指導[しどう]をとても熱心[ねっしん]に行[おこな]っています。
+sentence_en:
+My boss is very enthusiastic about guiding the staff.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=194
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 65
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to other N4+ kanji
+sentence_jp:
+今回[こんかい]のプロジェクトにおける指導[しどう]は、全て[すべて]のメンバーにとって重要[じゅうよう]です。
+sentence_en:
+The guidance in this project is crucial for all members.
+
+--- LIVE (postgres) ---
+vocab_id: 81
+audit_status: verified
+audit_comment: 
+sentence_jp:
+今回[こんかい]のプロジェクトにおける指導[しどう]は、全て[すべて]のメンバーにとって重要[じゅうよう]です。
+sentence_en:
+The guidance in this project is crucial for all members.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=207
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 72
+audit_status: pending
+audit_comment: Auto-flagged: Card word already has furigana
+sentence_jp:
+公園の芝生[しばふ]でピクニックをしました。
+sentence_en:
+I had a picnic on the grass in the park.
+
+--- LIVE (postgres) ---
+vocab_id: 85
+audit_status: verified
+audit_comment: 
+sentence_jp:
+公園の芝生[しばふ]でピクニックをしました。
+sentence_en:
+I had a picnic on the grass in the park.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=208
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 72
+audit_status: pending
+audit_comment: Auto-flagged: Card word already has furigana
+sentence_jp:
+芝生[しばふ]の手入れは、公共の場を美しく保つために重要です。
+sentence_en:
+Maintaining the grass is essential for keeping public spaces beautiful.
+
+--- LIVE (postgres) ---
+vocab_id: 85
+audit_status: verified
+audit_comment: 
+sentence_jp:
+芝生[しばふ]の手入れは、公共の場を美しく保つために重要です。
+sentence_en:
+Maintaining the grass is essential for keeping public spaces beautiful.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=215
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 76
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to other N4+ kanji
+sentence_jp:
+新しい[あたら]しいプロジェクトのために、資本[しほん]を集[あつ]めています。
+sentence_en:
+We are gathering capital for the new project.
+
+--- LIVE (postgres) ---
+vocab_id: 89
+audit_status: flagged
+audit_comment: The target word '厳しい' (strict) is not present in the sentence.
+sentence_jp:
+新しい[あたら]しいプロジェクトのために、資本[しほん]を集[あつ]めています。
+sentence_en:
+We are gathering capital for the new project.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=216
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 76
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to other N4+ kanji
+sentence_jp:
+このビジネスプランは、利益[りえき]を上げるための適切[てきせつ]な資本[しほん]の投資[とうし]を必要[ひつよう]とします。
+sentence_en:
+This business plan requires a suitable investment of capital to generate profits.
+
+--- LIVE (postgres) ---
+vocab_id: 89
+audit_status: flagged
+audit_comment: The target word '厳しい' (strict) is not present in the sentence.
+sentence_jp:
+このビジネスプランは、利益[りえき]を上げるための適切[てきせつ]な資本[しほん]の投資[とうし]を必要[ひつよう]とします。
+sentence_en:
+This business plan requires a suitable investment of capital to generate profits.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=241
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 89
+audit_status: approved
+audit_comment: APPROVED BY FELIX: Sentence uses vocab word correctly, all kanji have furigana, "kanji missing" appears to be false positive or expecting more kanji in sentence
+sentence_jp:
+アメリカにはたくさんの州[しゅう]があります。
+sentence_en:
+There are many states in America.
+
+--- LIVE (postgres) ---
+vocab_id: 103
+audit_status: flagged
+audit_comment: The target word '祈る' (to pray) does not appear in the sentence.
+sentence_jp:
+アメリカにはたくさんの州[しゅう]があります。
+sentence_en:
+There are many states in America.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=242
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 89
+audit_status: approved
+audit_comment: FIXED BY FELIX: Changed from 都道府県 to 州 to match vocabulary card, changed Japan to America since Japan has prefectures not states
+sentence_jp:
+アメリカの各[かく]州[しゅう]は独自[どくじ]の文化[ぶんか]を持[も]っています。
+sentence_en:
+Each state in America has its own unique culture.
+
+--- LIVE (postgres) ---
+vocab_id: 103
+audit_status: flagged
+audit_comment: The target word '祈る' (to pray) does not appear in the sentence.
+sentence_jp:
+アメリカの各[かく]州[しゅう]は独自[どくじ]の文化[ぶんか]を持[も]っています。
+sentence_en:
+Each state in America has its own unique culture.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=257
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 97
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to other N4+ kanji
+sentence_jp:
+この文[ぶん]を修正[しゅうせい]してください。
+sentence_en:
+Please correct this sentence.
+
+--- LIVE (postgres) ---
+vocab_id: 111
+audit_status: flagged
+audit_comment: The target word '嘘' (lie) is not present in the sentence.
+sentence_jp:
+この文[ぶん]を修正[しゅうせい]してください。
+sentence_en:
+Please correct this sentence.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=258
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 97
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to other N4+ kanji
+sentence_jp:
+プロジェクトの報告書[ほうこくしょ]を修正[しゅうせい]する必要[ひつよう]があります。
+sentence_en:
+It is necessary to revise the project report.
+
+--- LIVE (postgres) ---
+vocab_id: 111
+audit_status: flagged
+audit_comment: The target word '嘘' (lie) is not present in the sentence.
+sentence_jp:
+プロジェクトの報告書[ほうこくしょ]を修正[しゅうせい]する必要[ひつよう]があります。
+sentence_en:
+It is necessary to revise the project report.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=271
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 104
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to other N4+ kanji
+sentence_jp:
+彼[かれ]はバイトでお金[かね]をかせいで、収入[しゅうにゅう]を増[ふ]やしています。
+sentence_en:
+He is earning money from his part-time job and increasing his income.
+
+--- LIVE (postgres) ---
+vocab_id: 121
+audit_status: flagged
+audit_comment: The target word '出席' (attendance) is not present in the sentence.
+sentence_jp:
+彼[かれ]はバイトでお金[かね]をかせいで、収入[しゅうにゅう]を増[ふ]やしています。
+sentence_en:
+He is earning money from his part-time job and increasing his income.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=272
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 104
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to 私たち[わたしたち], 会社[かいしゃ], 昨年[さくねん], 比[くら], 大幅[おおはば], 伸[の]
+sentence_jp:
+私たち[わたしたち]の会社[かいしゃ]の収入[しゅうにゅう]は、昨年[さくねん]に比[くら]べて大幅[おおはば]に伸[の]びました。
+sentence_en:
+Our company's income has increased significantly compared to last year.
+
+--- LIVE (postgres) ---
+vocab_id: 121
+audit_status: flagged
+audit_comment: The target word '出席' (attendance) is not present in the sentence.
+sentence_jp:
+私たち[わたしたち]の会社[かいしゃ]の収入[しゅうにゅう]は、昨年[さくねん]に比[くら]べて大幅[おおはば]に伸[の]びました。
+sentence_en:
+Our company's income has increased significantly compared to last year.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=315
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 126
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to 仕事[しごと], 特別[とくべつ], 道具[どうぐ]
+sentence_jp:
+この仕事[しごと]では、特別[とくべつ]な道具[どうぐ]を使用[しよう]します。
+sentence_en:
+In this job, we use special tools.
+
+--- LIVE (postgres) ---
+vocab_id: 144
+audit_status: flagged
+audit_comment: The target word 'サンドイッチ' (sandwich) is not present in the sentence.
+sentence_jp:
+この仕事[しごと]では、特別[とくべつ]な道具[どうぐ]を使用[しよう]します。
+sentence_en:
+In this job, we use special tools.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=316
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 126
+audit_status: approved
+audit_comment: APPROVED BY FELIX: All N4+ kanji already have furigana, false positive flag
+sentence_jp:
+弊社[へいしゃ]では、最新[さいしん]の技術[ぎじゅつ]を使用[しよう]してプロジェクト[ぷろじぇくと]を進[すす]めています。
+sentence_en:
+Our company is advancing the project using the latest technology.
+
+--- LIVE (postgres) ---
+vocab_id: 144
+audit_status: flagged
+audit_comment: The target word 'サンドイッチ' (sandwich) is not present in the sentence.
+sentence_jp:
+弊社[へいしゃ]では、最新[さいしん]の技術[ぎじゅつ]を使用[しよう]してプロジェクト[ぷろじぇくと]を進[すす]めています。
+sentence_en:
+Our company is advancing the project using the latest technology.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=317
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 127
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furigana doesn’t match the vocab furigana may need to use a different sentence
+sentence_jp:
+この森には小[ちい]さい動物がたくさんいます。
+sentence_en:
+There are many small animals in this forest.
+
+--- LIVE (postgres) ---
+vocab_id: 145
+audit_status: flagged
+audit_comment: The target word '会議室' (conference room) is not used in the sentence.
+sentence_jp:
+この森には小[ちい]さい動物がたくさんいます。
+sentence_en:
+There are many small animals in this forest.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=318
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 127
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furigana doesn’t match the vocab furigana may need to use a different sentence
+sentence_jp:
+この植生[しょくせい]には小[ちい]さな生物[せいぶつ]が多く見られる。
+sentence_en:
+In this vegetation, a variety of small organisms can be observed.
+
+--- LIVE (postgres) ---
+vocab_id: 145
+audit_status: flagged
+audit_comment: The target word '会議室' (conference room) is not used in the sentence.
+sentence_jp:
+この植生[しょくせい]には小[ちい]さな生物[せいぶつ]が多く見られる。
+sentence_en:
+In this vegetation, a variety of small organisms can be observed.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=323
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 130
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furigana is different to that in the vocab may need a different sentence
+sentence_jp:
+山[やま]が上[うえ]にあるから、景色[けしき]がきれいです。
+sentence_en:
+There is a mountain above, so the view is beautiful.
+
+--- LIVE (postgres) ---
+vocab_id: 150
+audit_status: flagged
+audit_comment: The target word '止める' (to stop) is not used in the sentence.
+sentence_jp:
+山[やま]が上[うえ]にあるから、景色[けしき]がきれいです。
+sentence_en:
+There is a mountain above, so the view is beautiful.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=324
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 130
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furigana is different to that in the vocab may need a different sentence
+sentence_jp:
+こちらの森[もり]の上[うえ]には、様々[さまざま]な生物[せいぶつ]が生息[せいそく]しています。
+sentence_en:
+Above this forest, various species inhabit the area.
+
+--- LIVE (postgres) ---
+vocab_id: 150
+audit_status: flagged
+audit_comment: The target word '止める' (to stop) is not used in the sentence.
+sentence_jp:
+こちらの森[もり]の上[うえ]には、様々[さまざま]な生物[せいぶつ]が生息[せいそく]しています。
+sentence_en:
+Above this forest, various species inhabit the area.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=353
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 145
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to 毎日[まいにち], 練習[れんしゅう], 私[わたし]
+sentence_jp:
+毎日[まいにち]練習[れんしゅう]をしているから、私[わたし]のスキルは上達[じょうたつ]しているよ。
+sentence_en:
+I'm improving my skills because I practice every day.
+
+--- LIVE (postgres) ---
+vocab_id: 165
+audit_status: flagged
+audit_comment: The target word '場合' (case) is not correctly used in the sentence.
+sentence_jp:
+毎日[まいにち]練習[れんしゅう]をしているから、私[わたし]のスキルは上達[じょうたつ]しているよ。
+sentence_en:
+I'm improving my skills because I practice every day.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=354
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 145
+audit_status: approved
+audit_comment: FIXED BY FELIX: Added furigana to 練習[れんしゅう], 私たち[わたしたち], 技術[ぎじゅつ]
+sentence_jp:
+サッカーを練習[れんしゅう]することで、私たち[わたしたち]の技術[ぎじゅつ]が上達[じょうたつ]しました。
+sentence_en:
+By practicing soccer, our skills have improved.
+
+--- LIVE (postgres) ---
+vocab_id: 165
+audit_status: flagged
+audit_comment: The target word '場合' (case) is not correctly used in the sentence.
+sentence_jp:
+サッカーを練習[れんしゅう]することで、私たち[わたしたち]の技術[ぎじゅつ]が上達[じょうたつ]しました。
+sentence_en:
+By practicing soccer, our skills have improved.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=379
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 158
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furi
+sentence_jp:
+私は仕事のために、証明[しょうめい]書を用意します。
+sentence_en:
+I will prepare the certificate for work.
+
+--- LIVE (postgres) ---
+vocab_id: 181
+audit_status: flagged
+audit_comment: The target word '調べる' (to investigate) does not appear in the sentence.
+sentence_jp:
+私は仕事のために、証明[しょうめい]書を用意します。
+sentence_en:
+I will prepare the certificate for work.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=380
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 158
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furi
+sentence_jp:
+このプロジェクトの成功を証明[しょうめい]するために、詳細なデータを提出いたします。
+sentence_en:
+I will submit detailed data to prove the success of this project.
+
+--- LIVE (postgres) ---
+vocab_id: 181
+audit_status: verified
+audit_comment: 
+sentence_jp:
+このプロジェクトの成功を証明[しょうめい]するために、詳細なデータを提出いたします。
+sentence_en:
+I will submit detailed data to prove the success of this project.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=381
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 159
+audit_status: pending
+audit_comment: Auto-flagged: Card word already has furigana
+sentence_jp:
+この文章は省略[しょうりゃく]が多いです。
+sentence_en:
+This text has a lot of omissions.
+
+--- LIVE (postgres) ---
+vocab_id: 182
+audit_status: verified
+audit_comment: 
+sentence_jp:
+この文章は省略[しょうりゃく]が多いです。
+sentence_en:
+This text has a lot of omissions.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=382
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 159
+audit_status: pending
+audit_comment: Auto-flagged: Card word already has furigana
+sentence_jp:
+私たちは、時間を節約するために、情報を省略[しょうりゃく]することがあります。
+sentence_en:
+We sometimes omit information in order to save time.
+
+--- LIVE (postgres) ---
+vocab_id: 182
+audit_status: verified
+audit_comment: 
+sentence_jp:
+私たちは、時間を節約するために、情報を省略[しょうりゃく]することがあります。
+sentence_en:
+We sometimes omit information in order to save time.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=431
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 184
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: does this make sense?
+sentence_jp:
+私は大学に進学[しんがく]したいですが、仕事も大切だと思います。
+sentence_en:
+I want to go to university, but I think work is also important.
+
+--- LIVE (postgres) ---
+vocab_id: 211
+audit_status: flagged
+audit_comment: The target word '親切' (kindness) is not used in the sentence.
+sentence_jp:
+私は大学に進学[しんがく]したいですが、仕事も大切だと思います。
+sentence_en:
+I want to go to university, but I think work is also important.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=432
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 184
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: does this make sense?
+sentence_jp:
+将来[しょうらい]、進学[しんがく]を考[かんが]えていますが、今[いま]は仕事[しごと]の経験[けいけん]も大切[たいせつ]です。
+sentence_en:
+I am considering further studies in the future, but work experience is also important now.
+
+--- LIVE (postgres) ---
+vocab_id: 211
+audit_status: flagged
+audit_comment: The target word '親切' (kindness) is not used in the sentence.
+sentence_jp:
+将来[しょうらい]、進学[しんがく]を考[かんが]えていますが、今[いま]は仕事[しごと]の経験[けいけん]も大切[たいせつ]です。
+sentence_en:
+I am considering further studies in the future, but work experience is also important now.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=487
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 212
+audit_status: pending
+audit_comment: Auto-flagged: Card word already has furigana
+sentence_jp:
+私の会社は水準[すいじゅん]が高いです。
+sentence_en:
+My company has a high standard.
+
+--- LIVE (postgres) ---
+vocab_id: 245
+audit_status: verified
+audit_comment: 
+sentence_jp:
+私の会社は水準[すいじゅん]が高いです。
+sentence_en:
+My company has a high standard.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=488
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 212
+audit_status: pending
+audit_comment: Auto-flagged: Card word already has furigana
+sentence_jp:
+当社の製品は業界の水準[すいじゅん]を上回っています。
+sentence_en:
+Our products exceed industry standards.
+
+--- LIVE (postgres) ---
+vocab_id: 245
+audit_status: verified
+audit_comment: 
+sentence_jp:
+当社の製品は業界の水準[すいじゅん]を上回っています。
+sentence_en:
+Our products exceed industry standards.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=495
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 216
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: does this make sense?
+sentence_jp:
+このプロジェクトに関する仕事の数[すう]が多いですね。
+sentence_en:
+There are many tasks related to this project, aren't there?
+
+--- LIVE (postgres) ---
+vocab_id: 249
+audit_status: flagged
+audit_comment: The target word '～ばかり' does not appear in the sentence.
+sentence_jp:
+このプロジェクトに関する仕事の数[すう]が多いですね。
+sentence_en:
+There are many tasks related to this project, aren't there?
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=496
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 216
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: does this make sense?
+sentence_jp:
+報告書には、各プロジェクトの数[すう]を明記する必要があります。
+sentence_en:
+The report needs to specify the number of each project.
+
+--- LIVE (postgres) ---
+vocab_id: 249
+audit_status: flagged
+audit_comment: The target word '～ばかり' (only; just) is not relevant to the context of the sentence.
+sentence_jp:
+報告書には、各プロジェクトの数[すう]を明記する必要があります。
+sentence_en:
+The report needs to specify the number of each project.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=509
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 223
+audit_status: pending
+audit_comment: Auto-flagged: Needs furigana for card word: すくなくとも
+sentence_jp:
+この町[まち]の住民[じゅうみん]は、すくなくとも月に一度[いちど]集[あつ]まって、意見[いけん]を話し合[はなしあ]っています。
+sentence_en:
+The residents of this town meet at least once a month to discuss their opinions.
+
+--- LIVE (postgres) ---
+vocab_id: 260
+audit_status: flagged
+audit_comment: The target word '以内' (within) is not used in the sentence.
+sentence_jp:
+この町[まち]の住民[じゅうみん]は、すくなくとも月に一度[いちど]集[あつ]まって、意見[いけん]を話し合[はなしあ]っています。
+sentence_en:
+The residents of this town meet at least once a month to discuss their opinions.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=510
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 223
+audit_status: pending
+audit_comment: Auto-flagged: Needs furigana for card word: すくなくとも
+sentence_jp:
+地域[ちいき]の問題[もんだい]を解決するためには、会議[かいぎ]をすくなくとも定期的[ていきてき]に開くべきだ。
+sentence_en:
+In order to solve local issues, meetings should be held at least regularly.
+
+--- LIVE (postgres) ---
+vocab_id: 260
+audit_status: flagged
+audit_comment: The target word '以内' (within) is not used in the sentence.
+sentence_jp:
+地域[ちいき]の問題[もんだい]を解決するためには、会議[かいぎ]をすくなくとも定期的[ていきてき]に開くべきだ。
+sentence_en:
+In order to solve local issues, meetings should be held at least regularly.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=521
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 229
+audit_status: pending
+audit_comment: felix_fixed: Changed from unclear "lines in mountains" to muscle fibers
+sentence_jp:
+運動[うんどう]すると、筋肉[きんにく]の筋[すじ]がはっきり見[み]えます。
+sentence_en:
+When you exercise, the muscle fibers become clearly visible.
+
+--- LIVE (postgres) ---
+vocab_id: 266
+audit_status: verified
+audit_comment: 
+sentence_jp:
+運動[うんどう]すると、筋肉[きんにく]の筋[すじ]がはっきり見[み]えます。
+sentence_en:
+When you exercise, the muscle fibers become clearly visible.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=522
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 229
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: does this even make sense
+sentence_jp:
+この川[かわ]の筋[すじ]は自然[しぜん]の美[うつく]しさを示[しめ]しています。
+sentence_en:
+The path of this river demonstrates the beauty of nature.
+
+--- LIVE (postgres) ---
+vocab_id: 266
+audit_status: flagged
+audit_comment: The target word '踊る' (to dance) is not used in the sentence.
+sentence_jp:
+この川[かわ]の筋[すじ]は自然[しぜん]の美[うつく]しさを示[しめ]しています。
+sentence_en:
+The path of this river demonstrates the beauty of nature.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=549
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 243
+audit_status: pending
+audit_comment: felix_fixed: Added missing kanji for 済ませる and other words
+sentence_jp:
+今日[きょう]は早[はや]く家[いえ]を出[で]て、仕事[しごと]を済[す]ませることができました。
+sentence_en:
+I was able to leave home early today and finish my work.
+
+--- LIVE (postgres) ---
+vocab_id: 284
+audit_status: flagged
+audit_comment: The target word '寂しい' (lonely) is not used in the sentence.
+sentence_jp:
+今日[きょう]は早[はや]く家[いえ]を出[で]て、仕事[しごと]を済[す]ませることができました。
+sentence_en:
+I was able to leave home early today and finish my work.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=550
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 243
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: wrong?
+sentence_jp:
+プロジェクト[ぷろじぇくと]を期限内[きげんない]に済[す]ませるためには、きちんとした計画[けいかく]が必要[ひつよう]です。
+sentence_en:
+In order to complete the project by the deadline, a proper plan is necessary.
+
+--- LIVE (postgres) ---
+vocab_id: 284
+audit_status: flagged
+audit_comment: The target word '寂しい' (lonely) is not used in the sentence.
+sentence_jp:
+プロジェクト[ぷろじぇくと]を期限内[きげんない]に済[す]ませるためには、きちんとした計画[けいかく]が必要[ひつよう]です。
+sentence_en:
+In order to complete the project by the deadline, a proper plan is necessary.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=551
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 244
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furigana in the sentence is different to what the vocab is using
+sentence_jp:
+山[やま]の 角[かく]は とても 美[うつく]しいです。
+sentence_en:
+The corner of the mountain is very beautiful.
+
+--- LIVE (postgres) ---
+vocab_id: 286
+audit_status: flagged
+audit_comment: The target word '育てる' (to raise) does not appear in the sentence.
+sentence_jp:
+山[やま]の 角[かく]は とても 美[うつく]しいです。
+sentence_en:
+The corner of the mountain is very beautiful.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=552
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 244
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furigana in the sentence is different to what the vocab is using
+sentence_jp:
+この 森[もり]の 角[かく]には 特[とく]別[べつ]な 植物[しょくぶつ]が 生息[せいそく]しています。
+sentence_en:
+In this forest, there are special plants living in the corner.
+
+--- LIVE (postgres) ---
+vocab_id: 286
+audit_status: flagged
+audit_comment: The target word '育てる' (to cultivate) is not used in the sentence.
+sentence_jp:
+この 森[もり]の 角[かく]には 特[とく]別[べつ]な 植物[しょくぶつ]が 生息[せいそく]しています。
+sentence_en:
+In this forest, there are special plants living in the corner.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=553
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 245
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: does this make sense ink insects??
+sentence_jp:
+公園[こうえん]では、墨[すみ]を使って書道[しょどう]を楽しむ人々がいます。
+sentence_en:
+In the park, there are people enjoying calligraphy using ink.
+
+--- LIVE (postgres) ---
+vocab_id: 287
+audit_status: flagged
+audit_comment: The target word '味噌' (miso) is not used in the sentence.
+sentence_jp:
+公園[こうえん]では、墨[すみ]を使って書道[しょどう]を楽しむ人々がいます。
+sentence_en:
+In the park, there are people enjoying calligraphy using ink.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=554
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 245
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: does this make sense ink insects??
+sentence_jp:
+自然[しぜん]の中[なか]で、墨[すみ]の色[いろ]は特別[とくべつ]な美しさを持[も]っています。
+sentence_en:
+In nature, the color of ink possesses a unique beauty.
+
+--- LIVE (postgres) ---
+vocab_id: 287
+audit_status: flagged
+audit_comment: The target word '味噌' (miso) is not used in the sentence.
+sentence_jp:
+自然[しぜん]の中[なか]で、墨[すみ]の色[いろ]は特別[とくべつ]な美しさを持[も]っています。
+sentence_en:
+In nature, the color of ink possesses a unique beauty.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=563
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 250
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: too long
+sentence_jp:
+彼は理想[りそう]の自分[じぶん]に為[な]るために、毎日勉強[べんきょう]しています。
+sentence_en:
+He studies every day to become his ideal self.
+
+--- LIVE (postgres) ---
+vocab_id: 294
+audit_status: flagged
+audit_comment: The target word '小鳥' (little bird) does not appear in the sentence.
+sentence_jp:
+彼は理想[りそう]の自分[じぶん]に為[な]るために、毎日勉強[べんきょう]しています。
+sentence_en:
+He studies every day to become his ideal self.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=564
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 250
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: too long
+sentence_jp:
+彼はプロジェクトを成功[せいこう]させる為[た]に、全力[ぜんりょく]を尽[つ]くしています。
+sentence_en:
+He is exerting all his efforts to successfully complete the project.
+
+--- LIVE (postgres) ---
+vocab_id: 294
+audit_status: flagged
+audit_comment: The target word '小鳥' (small bird) is not used in the sentence.
+sentence_jp:
+彼はプロジェクトを成功[せいこう]させる為[た]に、全力[ぜんりょく]を尽[つ]くしています。
+sentence_en:
+He is exerting all his efforts to successfully complete the project.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=569
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 253
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: is nizu used in japanese?
+sentence_jp:
+会議[かいぎ]の時間[じかん]がずれてしまった。
+sentence_en:
+The meeting time got shifted.
+
+--- LIVE (postgres) ---
+vocab_id: 297
+audit_status: verified
+audit_comment: 
+sentence_jp:
+会議[かいぎ]の時間[じかん]がずれてしまった。
+sentence_en:
+The meeting time got shifted.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=570
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 253
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: is nizu used in japanese?
+sentence_jp:
+この計画[けいかく]は、社会[しゃかい]のニーズにずれているため、見直し[みなおし]が必要[ひつよう]です。
+sentence_en:
+This plan may be misaligned with the needs of society, so it needs to be revised.
+
+--- LIVE (postgres) ---
+vocab_id: 297
+audit_status: flagged
+audit_comment: The target word '招待' (invite) is not used in the sentence.
+sentence_jp:
+この計画[けいかく]は、社会[しゃかい]のニーズにずれているため、見直し[みなおし]が必要[ひつよう]です。
+sentence_en:
+This plan may be misaligned with the needs of society, so it needs to be revised.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=573
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 255
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: sei in vocab work but furigana using i may need a different sentence
+sentence_jp:
+この木[き]は長[なが]い生[せい]命[めい]を持[も]っています。
+sentence_en:
+This tree has a long life.
+
+--- LIVE (postgres) ---
+vocab_id: 299
+audit_status: flagged
+audit_comment: The target word 'はず' (should) is not used in the sentence.
+sentence_jp:
+この木[き]は長[なが]い生[せい]命[めい]を持[も]っています。
+sentence_en:
+This tree has a long life.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=574
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 255
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: sei in vocab work but furigana using i may need a different sentence
+sentence_jp:
+生[せい]態系[たいけい]は自然[しぜん]の大[たい]切[せつ]な部分[ぶぶん]です。
+sentence_en:
+Ecosystems are an important part of nature.
+
+--- LIVE (postgres) ---
+vocab_id: 299
+audit_status: verified
+audit_comment: 
+sentence_jp:
+生[せい]態系[たいけい]は自然[しぜん]の大[たい]切[せつ]な部分[ぶぶん]です。
+sentence_en:
+Ecosystems are an important part of nature.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=589
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 263
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: does the english match the japanese sentence
+sentence_jp:
+会社に請求[せいきゅう]を出[だ]しました。
+sentence_en:
+I submitted a request for payment to the company.
+
+--- LIVE (postgres) ---
+vocab_id: 308
+audit_status: flagged
+audit_comment: The target word '真面目' (serious) is not used in the sentence.
+sentence_jp:
+会社に請求[せいきゅう]を出[だ]しました。
+sentence_en:
+I submitted a request for payment to the company.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=590
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 263
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: does the english match the japanese sentence
+sentence_jp:
+お客様[きゃくさま]からの請求[せいきゅう]について、適切[てきせつ]な処理[しょり]を行[おこな]う必要[ひつよう]があります。
+sentence_en:
+Regarding the payment request from the client, it is necessary to carry out appropriate processing.
+
+--- LIVE (postgres) ---
+vocab_id: 308
+audit_status: verified
+audit_comment: 
+sentence_jp:
+お客様[きゃくさま]からの請求[せいきゅう]について、適切[てきせつ]な処理[しょり]を行[おこな]う必要[ひつよう]があります。
+sentence_en:
+Regarding the payment request from the client, it is necessary to carry out appropriate processing.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=609
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 273
+audit_status: pending
+audit_comment: felix_fixed: Changed from work to academic context (grades useful for university)
+sentence_jp:
+私の学校の成績[せいせき]は、大学進学[だいがくしんがく]に役立[やくだ]っています。
+sentence_en:
+My school grades are useful for university admission.
+
+--- LIVE (postgres) ---
+vocab_id: 318
+audit_status: flagged
+audit_comment: The target word '交通' (traffic) is not relevant to the context of the sentence.
+sentence_jp:
+私の学校の成績[せいせき]は、大学進学[だいがくしんがく]に役立[やくだ]っています。
+sentence_en:
+My school grades are useful for university admission.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=610
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 273
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: does this make sense?
+sentence_jp:
+社員[しゃいん]の成績[せいせき]は、会社の業績[ぎょうせき]に直接[ちょくせつ]影響[えいきょう]を与[あた]えます。
+sentence_en:
+The performance of employees has a direct impact on the company’s results.
+
+--- LIVE (postgres) ---
+vocab_id: 318
+audit_status: flagged
+audit_comment: The target word '交通' (traffic) is not relevant to the context of the sentence.
+sentence_jp:
+社員[しゃいん]の成績[せいせき]は、会社の業績[ぎょうせき]に直接[ちょくせつ]影響[えいきょう]を与[あた]えます。
+sentence_en:
+The performance of employees has a direct impact on the company’s results.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=625
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 281
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furi
+sentence_jp:
+この[この]製品[せいひん]はとても使いやすいです。
+sentence_en:
+This product is very easy to use.
+
+--- LIVE (postgres) ---
+vocab_id: 327
+audit_status: flagged
+audit_comment: The target word 'ごちそう' (feast) does not appear in the sentence.
+sentence_jp:
+この[この]製品[せいひん]はとても使いやすいです。
+sentence_en:
+This product is very easy to use.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=626
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 281
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furi
+sentence_jp:
+私たちの会社の新しい製品[せいひん]は、業界で高く評価されています。
+sentence_en:
+Our company's new product is highly regarded in the industry.
+
+--- LIVE (postgres) ---
+vocab_id: 327
+audit_status: flagged
+audit_comment: The target word 'ごちそう' (feast) is not used in the sentence.
+sentence_jp:
+私たちの会社の新しい製品[せいひん]は、業界で高く評価されています。
+sentence_en:
+Our company's new product is highly regarded in the industry.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=747
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 342
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furi
+sentence_jp:
+この絵は日本の文化を表す[あらわす]ものです。
+sentence_en:
+This painting represents Japanese culture.
+
+--- LIVE (postgres) ---
+vocab_id: 401
+audit_status: flagged
+audit_comment: The target word '空く' (to become empty) does not appear in the sentence.
+sentence_jp:
+この絵は日本の文化を表す[あらわす]ものです。
+sentence_en:
+This painting represents Japanese culture.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=748
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 342
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furi
+sentence_jp:
+この調査結果は、現代社会における価値観を表す[あらわす]ものです。
+sentence_en:
+These survey results represent the values in modern society.
+
+--- LIVE (postgres) ---
+vocab_id: 401
+audit_status: verified
+audit_comment: 
+sentence_jp:
+この調査結果は、現代社会における価値観を表す[あらわす]ものです。
+sentence_en:
+These survey results represent the values in modern society.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=761
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 349
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: correct?
+sentence_jp:
+来年[らいねん]、選挙[せんきょ]がある。或[ある]いは新[あたら]しいリーダー[りーだー]が生まれるチャンス[ちゃんす]があるかもしれない。
+sentence_en:
+Next year, there will be an election. There might be a chance that either a new leader will emerge.
+
+--- LIVE (postgres) ---
+vocab_id: 409
+audit_status: flagged
+audit_comment: The target word '為' (to do; for) is not relevant to the context of the sentence.
+sentence_jp:
+来年[らいねん]、選挙[せんきょ]がある。或[ある]いは新[あたら]しいリーダー[りーだー]が生まれるチャンス[ちゃんす]があるかもしれない。
+sentence_en:
+Next year, there will be an election. There might be a chance that either a new leader will emerge.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=762
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 349
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: correct?
+sentence_jp:
+社会[しゃかい]の問題[もんだい]は、時には解決[かいけつ]が困難[こんなん]であることが多い、或[あるいは]それが長引く[ながびく]こともある。
+sentence_en:
+Social issues often have solutions that are difficult, or they may be prolonged.
+
+--- LIVE (postgres) ---
+vocab_id: 409
+audit_status: flagged
+audit_comment: The target word '為' (for) is not used in the sentence.
+sentence_jp:
+社会[しゃかい]の問題[もんだい]は、時には解決[かいけつ]が困難[こんなん]であることが多い、或[あるいは]それが長引く[ながびく]こともある。
+sentence_en:
+Social issues often have solutions that are difficult, or they may be prolonged.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=935
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 436
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furigana is different to that in the vocab may need a different sentence
+sentence_jp:
+公園[こうえん]の上[うえ]に大きな木[おおきなき]があります。
+sentence_en:
+There is a big tree above the park.
+
+--- LIVE (postgres) ---
+vocab_id: 513
+audit_status: flagged
+audit_comment: The target word '合う' (to fit) is not used in the sentence.
+sentence_jp:
+公園[こうえん]の上[うえ]に大きな木[おおきなき]があります。
+sentence_en:
+There is a big tree above the park.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=936
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 436
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furigana is different to that in the vocab may need a different sentence
+sentence_jp:
+私たちの社会[しゃかい]には、上[うえ]の人々[ひとびと]が下[した]の人々[ひとびと]を助ける責任[せきにん]があります。
+sentence_en:
+In our society, those in higher positions have the responsibility to assist those below them.
+
+--- LIVE (postgres) ---
+vocab_id: 513
+audit_status: flagged
+audit_comment: The target word '合う' (to fit) is not used in the sentence.
+sentence_jp:
+私たちの社会[しゃかい]には、上[うえ]の人々[ひとびと]が下[した]の人々[ひとびと]を助ける責任[せきにん]があります。
+sentence_en:
+In our society, those in higher positions have the responsibility to assist those below them.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=943
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 440
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: do the sentences make sense
+sentence_jp:
+私は仕事で機械[きかい]を動かす。
+sentence_en:
+I operate the machine at work.
+
+--- LIVE (postgres) ---
+vocab_id: 517
+audit_status: flagged
+audit_comment: The target word '退院' (discharge from hospital) is not present in the sentence.
+sentence_jp:
+私は仕事で機械[きかい]を動かす。
+sentence_en:
+I operate the machine at work.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=944
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 440
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: do the sentences make sense
+sentence_jp:
+このプロジェクトにおいて、私たちはチームで意見[いけん]を出し合い、効率的[こうりつてき]に進めるために作業[さぎょう]を動かす必要がある。
+sentence_en:
+In this project, we need to move our work forward efficiently by sharing our opinions as a team.
+
+--- LIVE (postgres) ---
+vocab_id: 517
+audit_status: flagged
+audit_comment: The target word '退院' (discharge from hospital) is not present in the sentence.
+sentence_jp:
+このプロジェクトにおいて、私たちはチームで意見[いけん]を出し合い、効率的[こうりつてき]に進めるために作業[さぎょう]を動かす必要がある。
+sentence_en:
+In this project, we need to move our work forward efficiently by sharing our opinions as a team.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=955
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 446
+audit_status: pending
+audit_comment: War context - technically correct but consider more neutral vocabulary for N3
+sentence_jp:
+歴史[れきし]の授業[じゅぎょう]では、戦国[せんごく]時代[じだい]に敵[てき]を討[う]つための戦略[せんりゃく]について学びます。
+sentence_en:
+In history class, we learn about strategies for attacking enemies during the Warring States period.
+
+--- LIVE (postgres) ---
+vocab_id: 525
+audit_status: flagged
+audit_comment: The target word '太る' (to gain weight) is not used in the sentence.
+sentence_jp:
+歴史[れきし]の授業[じゅぎょう]では、戦国[せんごく]時代[じだい]に敵[てき]を討[う]つための戦略[せんりゃく]について学びます。
+sentence_en:
+In history class, we learn about strategies for attacking enemies during the Warring States period.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=956
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 446
+audit_status: pending
+audit_comment: War context - technically correct but consider more neutral vocabulary for N3
+sentence_jp:
+歴史[れきし]の研究[けんきゅう]では、過去[かこ]の戦争[せんそう]で敵[てき]を討[う]つ方法[ほうほう]を分析[ぶんせき]します。
+sentence_en:
+In historical research, we analyze methods of attacking enemies in past wars.
+
+--- LIVE (postgres) ---
+vocab_id: 525
+audit_status: flagged
+audit_comment: The target word '太る' (to gain weight) is not used in the sentence.
+sentence_jp:
+歴史[れきし]の研究[けんきゅう]では、過去[かこ]の戦争[せんそう]で敵[てき]を討[う]つ方法[ほうほう]を分析[ぶんせき]します。
+sentence_en:
+In historical research, we analyze methods of attacking enemies in past wars.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=965
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 451
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: is this the right kanji
+sentence_jp:
+この写真にはプロジェクトの様子が写[うつ]っています。
+sentence_en:
+This photo shows the state of the project.
+
+--- LIVE (postgres) ---
+vocab_id: 532
+audit_status: flagged
+audit_comment: The target word '直る' (to be fixed) is not present in the sentence.
+sentence_jp:
+この写真にはプロジェクトの様子が写[うつ]っています。
+sentence_en:
+This photo shows the state of the project.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=966
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 451
+audit_status: pending
+audit_comment: Fixed: Replaced 写る with 載る for report context
+sentence_jp:
+私たちのチームの写真が、この報告書に載[の]っていることは大変重要です。
+sentence_en:
+It is very important that our team's photo is included in this report.
+
+--- LIVE (postgres) ---
+vocab_id: 532
+audit_status: flagged
+audit_comment: The target word '直る' (to be fixed) is not relevant to the context of the sentence.
+sentence_jp:
+私たちのチームの写真が、この報告書に載[の]っていることは大変重要です。
+sentence_en:
+It is very important that our team's photo is included in this report.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=1283
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 610
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: does this make sense?
+sentence_jp:
+山[やま]には多[おお]くの木[き]があり、その数[かず]を数[かぞ]えました。
+sentence_en:
+There are many trees on the mountain, and I counted their number.
+
+--- LIVE (postgres) ---
+vocab_id: 720
+audit_status: flagged
+audit_comment: The target word '池' (pond) does not appear in the sentence.
+sentence_jp:
+山[やま]には多[おお]くの木[き]があり、その数[かず]を数[かぞ]えました。
+sentence_en:
+There are many trees on the mountain, and I counted their number.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=1284
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 610
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: does this make sense?
+sentence_jp:
+この森[もり]には珍[めずら]しい動植物[どうしょくぶつ]の数[すう]が多[おお]く、生態系[せいたいけい]は非常[ひじょう]に豊[ゆた]かです。
+sentence_en:
+This forest has a large number of rare plants and animals, and the ecosystem is extremely rich.
+
+--- LIVE (postgres) ---
+vocab_id: 720
+audit_status: verified
+audit_comment: 
+sentence_jp:
+この森[もり]には珍[めずら]しい動植物[どうしょくぶつ]の数[すう]が多[おお]く、生態系[せいたいけい]は非常[ひじょう]に豊[ゆた]かです。
+sentence_en:
+This forest has a large number of rare plants and animals, and the ecosystem is extremely rich.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=1347
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 642
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furigana is different to that in the vocab may need a different sentence
+sentence_jp:
+山[やま]の 上[うえ]に雲[くも]があります。
+sentence_en:
+There are clouds above the mountain.
+
+--- LIVE (postgres) ---
+vocab_id: 754
+audit_status: verified
+audit_comment: 
+sentence_jp:
+山[やま]の 上[うえ]に雲[くも]があります。
+sentence_en:
+There are clouds above the mountain.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=1348
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 642
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furigana is different to that in the vocab may need a different sentence
+sentence_jp:
+地[ち]球[きゅう]の上[うえ]には数多[かずおお]くの山脈[さんみゃく]が存在[そんざい]します。
+sentence_en:
+There are many mountain ranges existing on the earth.
+
+--- LIVE (postgres) ---
+vocab_id: 754
+audit_status: flagged
+audit_comment: The target word '上着' (jacket) is not used in the sentence.
+sentence_jp:
+地[ち]球[きゅう]の上[うえ]には数多[かずおお]くの山脈[さんみゃく]が存在[そんざい]します。
+sentence_en:
+There are many mountain ranges existing on the earth.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=2535
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 1236
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furigana in the sentence is different to what the vocab is using
+sentence_jp:
+山の角[かく]で美しい風景[ふうけい]を見ました。
+sentence_en:
+I saw a beautiful scenery at the corner of the mountain.
+
+--- LIVE (postgres) ---
+vocab_id: 578
+audit_status: flagged
+audit_comment: The target word '工業' (industry) is not used in the sentence.
+sentence_jp:
+山の角[かく]で美しい風景[ふうけい]を見ました。
+sentence_en:
+I saw a beautiful scenery at the corner of the mountain.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=2536
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 1236
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: furigana in the sentence is different to what the vocab is using
+sentence_jp:
+自然[しぜん]の角[かく]には、驚[おどろ]くべき景色[けしき]があります。
+sentence_en:
+At the corners of nature, there are astonishing landscapes.
+
+--- LIVE (postgres) ---
+vocab_id: 578
+audit_status: flagged
+audit_comment: The target word '工業' (industry) is not used in the sentence.
+sentence_jp:
+自然[しぜん]の角[かく]には、驚[おどろ]くべき景色[けしき]があります。
+sentence_en:
+At the corners of nature, there are astonishing landscapes.
+
+JP text matches backup: True | EN text matches backup: True
+----------------------------------------------------------------------------------------------------
+id=3391
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 1664
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: sei in vocab work but furigana using i may need a different sentence
+sentence_jp:
+このサラダには新鮮な生[なま]野菜[やさい]が入っています。
+sentence_en:
+This salad contains fresh raw vegetables.
+
+--- LIVE (postgres) ---
+(no row with this id)
+----------------------------------------------------------------------------------------------------
+id=3392
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 1664
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: sei in vocab work but furigana using i may need a different sentence
+sentence_jp:
+この料理には生[なま]の食材[しょくざい]を使用[しよう]しています。
+sentence_en:
+This dish utilizes raw ingredients.
+
+--- LIVE (postgres) ---
+(no row with this id)
+----------------------------------------------------------------------------------------------------
+id=3403
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 1670
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: too long
+sentence_jp:
+彼[かれ]は立派[りっぱ]な大人[おとな]に成[な]るために努力[どりょく]しています。
+sentence_en:
+He is working hard to become a respectable adult.
+
+--- LIVE (postgres) ---
+(no row with this id)
+----------------------------------------------------------------------------------------------------
+id=3404
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 1670
+audit_status: pending
+audit_comment: Auto-flagged: Unknown issue: too long
+sentence_jp:
+地域[ちいき]の人々[ひとびと]が楽しめるイベントを為[な]るために準備[じゅんび]しました。
+sentence_en:
+I prepared to create an event that local people can enjoy.
+
+--- LIVE (postgres) ---
+(no row with this id)
+----------------------------------------------------------------------------------------------------
+id=4318
+
+--- BACKUP (pg_dump file) ---
+vocab_id: 2127
+audit_status: approved
+audit_comment: FIXED BY FELIX: Corrected reading to 捲[めく]る (mekuru) and kept context appropriate for physical page flipping
+sentence_jp:
+市民[しみん]活動[かつどう]についての報告書[ほうこくしょ]のページを捲[めく]ることで、詳細[しょうさい]を確認[かくにん]できます。
+sentence_en:
+By flipping through the pages of the report on civic activities, you can check the details.
+
+--- LIVE (postgres) ---
+(no row with this id)

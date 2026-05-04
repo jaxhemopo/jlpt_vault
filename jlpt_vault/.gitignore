@@ -1,0 +1,7 @@
+# Local overrides for Docker / tools (do not commit real credentials)
+.env
+.env.*
+!.env.example
+
+.DS_Store
+**/.DS_Store

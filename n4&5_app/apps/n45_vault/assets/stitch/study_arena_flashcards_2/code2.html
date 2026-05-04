@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#e63946",
+                        "sky-blue": "#7a9e9f",
+                        "sky-deep": "#4f6d7a",
+                        "hard-orange": "#f59e0b",
+                        "good-blue": "#3b82f6",
+                        "easy-green": "#10b981",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer base {
+            body {
+                font-family: 'Lexend', sans-serif;
+                -webkit-tap-highlight-color: transparent;
+                @apply text-slate-100;
+            }
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(40px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        .lofi-sky-gradient {
+            background: linear-gradient(to bottom, #7a9e9f 0%, #a8dadc 100%);
+        }
+        .sun-glow {
+            box-shadow: 0 0 60px rgba(230, 57, 70, 0.4);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="overflow-hidden bg-[#7a9e9f]">
+<div class="relative flex h-screen w-full flex-col lofi-sky-gradient overflow-hidden">
+<div class="absolute inset-0 z-0 pointer-events-none">
+<div class="absolute -top-10 -right-10 w-72 h-72 rounded-full bg-primary sun-glow opacity-90"></div>
+<div class="absolute bottom-24 left-0 w-full h-1/2 flex items-end justify-start pointer-events-none">
+<svg class="w-64 h-auto opacity-90 ml-[-20px]" preserveAspectRatio="xMinYMax meet" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#2d4a53" height="200" width="180" x="20" y="200"></rect>
+<rect fill="#f1f1f1" height="30" width="180" x="20" y="200"></rect> 
+<rect fill="#e63946" height="80" opacity="0.8" width="40" x="140" y="280"></rect> 
+<path d="M20 200 L200 200 L210 230 L10 230 Z" fill="#f1f1f1"></path> 
+<rect fill="#f1f1f1" height="40" width="400" x="200" y="380"></rect> 
+<circle cx="280" cy="350" fill="#1a1a1a" r="8"></circle>
+<rect fill="#1a1a1a" height="28" rx="4" width="16" x="272" y="358"></rect>
+</svg>
+</div>
+</div>
+<div class="relative z-20 flex flex-col gap-4 p-6 pt-14">
+<div class="flex items-center justify-between">
+<button class="flex items-center justify-center p-2 rounded-full hover:bg-black/5 transition-colors">
+<span class="material-symbols-outlined text-slate-800/60">close</span>
+</button>
+<div class="text-center">
+<h1 class="text-xs font-bold tracking-[0.4em] text-slate-800/70 uppercase">JLPT N2</h1>
+</div>
+<button class="flex items-center justify-center p-2 rounded-full hover:bg-black/5 transition-colors">
+<span class="material-symbols-outlined text-slate-800/60">more_horiz</span>
+</button>
+</div>
+<div class="flex flex-col gap-1.5 px-12">
+<div class="h-[2px] w-full bg-black/10 rounded-full overflow-hidden">
+<div class="h-full bg-primary/80 w-[35%]"></div>
+</div>
+</div>
+</div>
+<div class="relative z-10 flex-1 flex items-center justify-center px-10">
+<div class="glass-card w-full aspect-[4/5] max-h-[460px] rounded-[2.5rem] flex flex-col items-center justify-center shadow-[0_40px_80px_-20px_rgba(0,0,0,0.15)] relative overflow-hidden group cursor-pointer">
+<div class="text-center">
+<div class="text-[110px] font-display font-light text-slate-900 mb-10 tracking-tighter">
+                        学習
+                    </div>
+<div class="flex flex-col items-center gap-4 opacity-40">
+<span class="material-symbols-outlined text-xl text-slate-900">touch_app</span>
+<p class="text-[10px] tracking-[0.4em] font-medium uppercase text-slate-900">Tap to reveal</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative z-20 flex flex-col w-full">
+<div class="px-6 pb-8">
+<div class="grid grid-cols-4 gap-3">
+<button class="flex flex-col items-center justify-center gap-1.5 py-4 rounded-2xl bg-white/40 border border-white/20 hover:bg-white/60 transition-all group">
+<span class="text-[10px] font-bold text-primary uppercase tracking-widest">Again</span>
+<span class="text-[9px] text-slate-700/60">1m</span>
+</button>
+<button class="flex flex-col items-center justify-center gap-1.5 py-4 rounded-2xl bg-white/40 border border-white/20 hover:bg-white/60 transition-all group">
+<span class="text-[10px] font-bold text-hard-orange uppercase tracking-widest">Hard</span>
+<span class="text-[9px] text-slate-700/60">2d</span>
+</button>
+<button class="flex flex-col items-center justify-center gap-1.5 py-4 rounded-2xl bg-white/40 border border-white/20 hover:bg-white/60 transition-all group">
+<span class="text-[10px] font-bold text-good-blue uppercase tracking-widest">Good</span>
+<span class="text-[9px] text-slate-700/60">4d</span>
+</button>
+<button class="flex flex-col items-center justify-center gap-1.5 py-4 rounded-2xl bg-white/40 border border-white/20 hover:bg-white/60 transition-all group">
+<span class="text-[10px] font-bold text-easy-green uppercase tracking-widest">Easy</span>
+<span class="text-[9px] text-slate-700/60">7d</span>
+</button>
+</div>
+</div>
+<div class="flex gap-2 border-t border-white/10 bg-white/20 px-6 pb-10 pt-4 backdrop-blur-xl">
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined text-[24px] fill-1">school</span>
+<p class="text-[9px] font-bold tracking-wide">Study</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-800/60" href="#">
+<span class="material-symbols-outlined text-[24px]">style</span>
+<p class="text-[9px] font-bold tracking-wide">Decks</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-800/60" href="#">
+<span class="material-symbols-outlined text-[24px]">bar_chart</span>
+<p class="text-[9px] font-bold tracking-wide">Stats</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-center gap-1 text-slate-800/60" href="#">
+<span class="material-symbols-outlined text-[24px]">settings</span>
+<p class="text-[9px] font-bold tracking-wide">Settings</p>
+</a>
+</div>
+</div>
+</div>
+<div class="hidden">
+<img alt="" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUk0-bODyZd35QZeSY7JKjBcYrvGn90QuAxxXYVqNjV4RemL9mFfrbu-hF-kOXQzDk-lDoM_B-cpGF-23bZ0g-StI6f34bc4mBdF8PyziB5gO94h-LkvXbM4R_XtX8eUjgr_9n8fSlaeAJ8eJCSi5SO3y2afU5mdX5bwFaHL0jFEse85w7QdVjP9WQ_Ap6qFQwd6RIRiEwkZBQgh2DZOx2bzrclRThvaR7ylzRsS7pKPlDzvISL-1dRma4IMNtKgKqsbO-oMRU_m_G"/>
+<img alt="" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD18PzpCCfTOOdBgNT4Ql4Pd63Qepgg9NMvi-hwZzVJgL3ss0jMyw1O8dA_zdJ9NTs-e8f3_IfE7Q_G7wAH4CaTtqT7Qys9iKaHitKslSPxSau6b0FoMjkTQLo22q0zbZwvNdFB5vX_DG3p0g7rtRtHwXH-hLum6TUauc47TbyTgoPGUYGrvTth8kP9pKctxWzOw3164gWjGWk9jK7u2MxhpnsBzZW5eULXHJ967fPm8DQg1kwwR6mqhp9cxuVvzFtVfd4Zv7xPbejj"/>
+</div>
+
+</body></html>
