@@ -12,7 +12,11 @@ class NotificationManager {
   final FlutterLocalNotificationsPlugin _notificationsPlugin = FlutterLocalNotificationsPlugin();
 
   Future<void> initialize() async {
-    tz.initializeTimeZones();
+    try {
+      tz.initializeTimeZones();
+    } catch (e, st) {
+      print('NOTIFICATIONS: initializeTimeZones failed: $e\n$st');
+    }
 
     try {
       final timeZoneName = await FlutterNativeTimezone.getLocalTimezone();
@@ -21,16 +25,20 @@ class NotificationManager {
     } catch (e) {
       print('NOTIFICATIONS: failed to set local timezone: $e');
     }
-    
+
     const AndroidInitializationSettings androidSettings = AndroidInitializationSettings('@mipmap/ic_launcher');
     const DarwinInitializationSettings iosSettings = DarwinInitializationSettings();
-    
+
     const InitializationSettings initSettings = InitializationSettings(
       android: androidSettings,
       iOS: iosSettings,
     );
 
-    await _notificationsPlugin.initialize(initSettings);
+    try {
+      await _notificationsPlugin.initialize(initSettings);
+    } catch (e, st) {
+      print('NOTIFICATIONS: plugin initialize failed: $e\n$st');
+    }
   }
 
   Future<void> scheduleDailyReminder(int hour, int minute) async {

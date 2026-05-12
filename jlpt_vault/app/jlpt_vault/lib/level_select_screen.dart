@@ -37,7 +37,17 @@ class _LevelSelectScreenState extends State<LevelSelectScreen> {
       if (context.mounted) Navigator.of(context).pop();
       return;
     }
-    await DatabaseHelper().openForLevel(level);
+    try {
+      await DatabaseHelper().openForLevel(level);
+    } catch (e, st) {
+      debugPrint('LEVEL_SELECT: openForLevel failed: $e\n$st');
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Could not open study data (N$level). Please try again or reinstall.')),
+        );
+      }
+      return;
+    }
     widget.onLevelChosen();
     if (context.mounted && widget.isChangingLevel) {
       Navigator.of(context).pop();

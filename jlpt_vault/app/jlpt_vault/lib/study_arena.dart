@@ -20,7 +20,7 @@ class StudyArena extends StatefulWidget {
 }
 
 class _StudyArenaState extends State<StudyArena> with SingleTickerProviderStateMixin {
-  static const int _dailyFreeCardLimit = 10;
+  static const int _dailyFreeCardLimit = 20;
   static const String _dailyFreeCardsDateKey = 'free_cards_date';
   static const String _dailyFreeCardsUsedKey = 'free_cards_used';
 
@@ -314,7 +314,7 @@ class _StudyArenaState extends State<StudyArena> with SingleTickerProviderStateM
     if (!IapManager().isRevenueCatEnabled) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text('Daily free limit reached (10 cards). Enable RevenueCat to test the paywall.'),
+          content: Text('Daily free limit reached (20 cards). Enable RevenueCat to test the paywall.'),
         ),
       );
       return true;
