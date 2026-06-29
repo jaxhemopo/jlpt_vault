@@ -1,0 +1,1072 @@
+[
+  {
+    "vocab_id": 39,
+    "sentence_jp": "試験[しけん]は非常[ひじょう]に難[むずか]しかったです。",
+    "sentence_en": "The exam was extremely difficult."
+  },
+  {
+    "vocab_id": 135,
+    "sentence_jp": "試合[しあい]に負[ま]けて、残念[ざんねん]な気持[きも]ちになりました。",
+    "sentence_en": "I felt regretful after losing the match."
+  },
+  {
+    "vocab_id": 145,
+    "sentence_jp": "午後[ごご]、会議室[かいぎしつ]で大切[たいせつ]な打[う]ち合[あ]わせがあります。",
+    "sentence_en": "There is an important meeting in the conference room this afternoon."
+  },
+  {
+    "vocab_id": 153,
+    "sentence_jp": "銀行[ぎんこう]に行[い]く用事[ようじ]があるので、早[はや]めに家[いえ]を出[で]ます。",
+    "sentence_en": "I have an errand at the bank, so I will leave home early."
+  },
+  {
+    "vocab_id": 154,
+    "sentence_jp": "あのビルの三階[さんかい]に新[あたら]しいカフェができました。",
+    "sentence_en": "A new café opened on the third floor of that building."
+  },
+  {
+    "vocab_id": 157,
+    "sentence_jp": "野球[やきゅう]の選手[せんしゅ]がボールを強[つよ]く投[な]げました。",
+    "sentence_en": "The baseball player threw the ball hard."
+  },
+  {
+    "vocab_id": 159,
+    "sentence_jp": "重[おも]い荷物[にもつ]を運[はこ]ぶには力[ちから]が必要[ひつよう]です。",
+    "sentence_en": "Strength is needed to carry heavy luggage."
+  },
+  {
+    "vocab_id": 160,
+    "sentence_jp": "来月[らいげつ]、日本語[にほんご]の試験[しけん]を受[う]ける予定[よてい]です。",
+    "sentence_en": "I plan to take the Japanese exam next month."
+  },
+  {
+    "vocab_id": 165,
+    "sentence_jp": "電車[でんしゃ]が遅[おく]れる場合[ばあい]は、連絡[れんらく]してください。",
+    "sentence_en": "Please contact me in case the train is delayed."
+  },
+  {
+    "vocab_id": 174,
+    "sentence_jp": "再来月[さらいげつ]に引[ひ]っ越[こ]す予定[よてい]です。",
+    "sentence_en": "I plan to move the month after next."
+  },
+  {
+    "vocab_id": 177,
+    "sentence_jp": "健康[けんこう]のために、少[すこ]し痩[や]せたいと思[おも]っています。",
+    "sentence_en": "I want to lose a little weight for my health."
+  },
+  {
+    "vocab_id": 180,
+    "sentence_jp": "来週[らいしゅう]のスケジュールを自分[じぶん]で決[き]めました。",
+    "sentence_en": "I decided my own schedule for next week."
+  },
+  {
+    "vocab_id": 181,
+    "sentence_jp": "分[わ]からない言葉[ことば]をインターネットで調[しら]べました。",
+    "sentence_en": "I looked up words I didn't understand on the internet."
+  },
+  {
+    "vocab_id": 183,
+    "sentence_jp": "パパと一緒[いっしょ]に自転車[じてんしゃ]の乗[の]り方[かた]を練習[れんしゅう]しました。",
+    "sentence_en": "I practiced how to ride a bicycle with my dad."
+  },
+  {
+    "vocab_id": 184,
+    "sentence_jp": "磨[みが]いたばかりの床[ゆか]が光[ひか]っています。",
+    "sentence_en": "The freshly polished floor is shining."
+  },
+  {
+    "vocab_id": 194,
+    "sentence_jp": "弟[おとうと]は来年[らいねん]、小学校[しょうがっこう]に入学[にゅうがく]します。",
+    "sentence_en": "My younger brother will enter elementary school next year."
+  },
+  {
+    "vocab_id": 198,
+    "sentence_jp": "古[ふる]い新聞[しんぶん]を捨[す]てて、部屋[へや]をきれいにしました。",
+    "sentence_en": "I threw away the old newspapers and tidied up my room."
+  },
+  {
+    "vocab_id": 200,
+    "sentence_jp": "毎日[まいにち]日本語[にほんご]を勉強[べんきょう]する事[こと]が大切[たいせつ]です。",
+    "sentence_en": "It is important to study Japanese every day."
+  },
+  {
+    "vocab_id": 205,
+    "sentence_jp": "先週[せんしゅう]、家族[かぞく]と美術館[びじゅつかん]でたくさんの絵[え]を見[み]ました。",
+    "sentence_en": "Last week, I saw many paintings at the art museum with my family."
+  },
+  {
+    "vocab_id": 210,
+    "sentence_jp": "先生[せんせい]にお礼[おれい]のメッセージを書[か]きました。",
+    "sentence_en": "I wrote a message of gratitude to my teacher."
+  },
+  {
+    "vocab_id": 211,
+    "sentence_jp": "道[みち]を聞[き]いたら、親切[しんせつ]な人[ひと]が丁寧[ていねい]に教[おし]えてくれました。",
+    "sentence_en": "When I asked for directions, a kind person told me carefully."
+  },
+  {
+    "vocab_id": 215,
+    "sentence_jp": "来月[らいげつ]からピアノのレッスンを始[はじ]めることにしました。",
+    "sentence_en": "I decided to start piano lessons from next month."
+  },
+  {
+    "vocab_id": 217,
+    "sentence_jp": "映画[えいが]の悲[かな]しいシーンを見[み]て、思[おも]わず泣[な]いてしまいました。",
+    "sentence_en": "I unexpectedly cried when I watched a sad scene in the movie."
+  },
+  {
+    "vocab_id": 223,
+    "sentence_jp": "授業[じゅぎょう]の終[お]わりのベルが鳴[な]ると、生徒[せいと]たちは帰[かえ]り始[はじ]めます。",
+    "sentence_en": "When the end-of-class bell rings, the students start going home."
+  },
+  {
+    "vocab_id": 229,
+    "sentence_jp": "パーティーの後[あと]、ケーキが少[すこ]し残[のこ]っていました。",
+    "sentence_en": "After the party, a little cake was left."
+  },
+  {
+    "vocab_id": 231,
+    "sentence_jp": "先生[せんせい]が漢字[かんじ]の書[か]き方[かた]を教[おし]えてくれました。",
+    "sentence_en": "The teacher taught me how to write kanji."
+  },
+  {
+    "vocab_id": 233,
+    "sentence_jp": "遅刻[ちこく]した原因[げんいん]は電車[でんしゃ]の遅[おく]れでした。",
+    "sentence_en": "The cause of being late was the train delay."
+  },
+  {
+    "vocab_id": 234,
+    "sentence_jp": "誕生日[たんじょうび]にサプライズパーティーがあって、とても驚[おどろ]きました。",
+    "sentence_en": "I was very surprised at the surprise birthday party."
+  },
+  {
+    "vocab_id": 238,
+    "sentence_jp": "テストの答[こたえ]を確認[かくにん]してから、提出[ていしゅつ]しました。",
+    "sentence_en": "I submitted the test after checking my answers."
+  },
+  {
+    "vocab_id": 241,
+    "sentence_jp": "病院[びょういん]の受付[うけつけ]で名前[なまえ]を書[か]いてください。",
+    "sentence_en": "Please write your name at the hospital reception desk."
+  },
+  {
+    "vocab_id": 250,
+    "sentence_jp": "美[うつく]しい音楽[おんがく]を聞[き]くと、心[こころ]が落[お]ち着[つ]きます。",
+    "sentence_en": "When I listen to beautiful music, my mind calms down."
+  },
+  {
+    "vocab_id": 253,
+    "sentence_jp": "忘[わす]れ物[もの]を駅[えき]に届[とど]けました。",
+    "sentence_en": "I delivered the lost item to the station."
+  },
+  {
+    "vocab_id": 256,
+    "sentence_jp": "確か[たしか]、その映画[えいが]は来週[らいしゅう]公開[こうかい]されるはずです。",
+    "sentence_en": "If I remember correctly, that movie should be released next week."
+  },
+  {
+    "vocab_id": 277,
+    "sentence_jp": "父[ちち]は毎日[まいにち]車[くるま]を運転[うんてん]して会社[かいしゃ]に行[い]きます。",
+    "sentence_en": "My father drives to work every day."
+  },
+  {
+    "vocab_id": 288,
+    "sentence_jp": "卒業[そつぎょう]のお祝い[おいわい]に、家族[かぞく]がレストランに連[つ]れて行[い]ってくれました。",
+    "sentence_en": "My family took me to a restaurant to celebrate my graduation."
+  },
+  {
+    "vocab_id": 295,
+    "sentence_jp": "大学[だいがく]の近[ちか]くに下宿[げしゅく]を借[か]りることにしました。",
+    "sentence_en": "I decided to rent a boarding house near the university."
+  },
+  {
+    "vocab_id": 296,
+    "sentence_jp": "このジャムはいちごで作[つく]ってあって、とても甘[あま]いです。",
+    "sentence_en": "This jam is made from strawberries and is very sweet."
+  },
+  {
+    "vocab_id": 299,
+    "sentence_jp": "鍵[かぎ]はバッグの中[なか]にあるはずですが、見[み]つかりません。",
+    "sentence_en": "The key should be in the bag, but I can't find it."
+  },
+  {
+    "vocab_id": 302,
+    "sentence_jp": "週末[しゅうまつ]は料理[りょうり]を作[つく]ることを楽[たの]しんでいます。",
+    "sentence_en": "On weekends, I enjoy making food."
+  },
+  {
+    "vocab_id": 304,
+    "sentence_jp": "夜[よる]遅[おそ]く外[そと]に出[で]ることに、母[はは]は反対[はんたい]しました。",
+    "sentence_en": "My mother opposed me going out late at night."
+  },
+  {
+    "vocab_id": 310,
+    "sentence_jp": "店員[てんいん]に商品[しょうひん]の場所[ばしょ]を聞[き]きました。",
+    "sentence_en": "I asked the store clerk where the product was."
+  },
+  {
+    "vocab_id": 312,
+    "sentence_jp": "ご注文[ちゅうもん]はこちらでよろしいでしょうか。",
+    "sentence_en": "Is this your order?"
+  },
+  {
+    "vocab_id": 313,
+    "sentence_jp": "今夜[こんや]は早[はや]めに寝[ね]るつもりです。",
+    "sentence_en": "Tonight, I plan to go to bed early."
+  },
+  {
+    "vocab_id": 316,
+    "sentence_jp": "日本語[にほんご]の会話[かいわ]の練習[れんしゅう]をするために、ネイティブと話[はな]しました。",
+    "sentence_en": "I talked with a native speaker to practice Japanese conversation."
+  },
+  {
+    "vocab_id": 320,
+    "sentence_jp": "母[はは]へのプレゼントを開[あ]けた時[とき]、とても喜[よろこ]んでくれました。",
+    "sentence_en": "When my mother opened the present, she was very delighted."
+  },
+  {
+    "vocab_id": 326,
+    "sentence_jp": "校長[こうちょう]先生[せんせい]が入学式[にゅうがくしき]でスピーチをしました。",
+    "sentence_en": "The principal gave a speech at the entrance ceremony."
+  },
+  {
+    "vocab_id": 332,
+    "sentence_jp": "来週[らいしゅう]の都合[つごう]を教[おし]えていただけますか。",
+    "sentence_en": "Could you let me know your availability next week?"
+  },
+  {
+    "vocab_id": 333,
+    "sentence_jp": "もっと食[た]べてください、遠慮[えんりょ]しないでください。",
+    "sentence_en": "Please eat more, don't hold back."
+  },
+  {
+    "vocab_id": 338,
+    "sentence_jp": "頑張[がんば]って試験[しけん]に合格[ごうかく]した時[とき]、とても嬉[うれ]しい気持[きも]ちになりました。",
+    "sentence_en": "When I passed the exam after working hard, I felt very happy."
+  },
+  {
+    "vocab_id": 343,
+    "sentence_jp": "来年[らいねん]、大学[だいがく]に入学[にゅうがく]できるように頑張[がんば]っています。",
+    "sentence_en": "I am working hard so I can enter university next year."
+  },
+  {
+    "vocab_id": 345,
+    "sentence_jp": "授業[じゅぎょう]中[ちゅう]に黒板[こくばん]に書[か]かれた文字[もじ]をノートに写[うつ]しました。",
+    "sentence_en": "During class, I copied the characters written on the blackboard into my notebook."
+  },
+  {
+    "vocab_id": 365,
+    "sentence_jp": "昼間[ひるま]は仕事[しごと]があるので、夜[よる]に料理[りょうり]をします。",
+    "sentence_en": "I have work during the day, so I cook at night."
+  },
+  {
+    "vocab_id": 373,
+    "sentence_jp": "再来週[さらいしゅう]に発表[はっぴょう]があるので、今[いま]から準備[じゅんび]しています。",
+    "sentence_en": "I have a presentation the week after next, so I am preparing now."
+  },
+  {
+    "vocab_id": 375,
+    "sentence_jp": "風邪[かぜ]をひいて、喉[のど]が赤[あか]くなっています。",
+    "sentence_en": "I have a cold and my throat is red."
+  },
+  {
+    "vocab_id": 376,
+    "sentence_jp": "最近[さいきん]、毎朝[まいあさ]ジョギングをするようになりました。",
+    "sentence_en": "Recently, I have started jogging every morning."
+  },
+  {
+    "vocab_id": 378,
+    "sentence_jp": "この城[しろ]には長[なが]い歴史[れきし]があります。",
+    "sentence_en": "This castle has a long history."
+  },
+  {
+    "vocab_id": 380,
+    "sentence_jp": "指[ゆび]を切[き]って、血[ち]が出[で]てきました。",
+    "sentence_en": "I cut my finger and it started bleeding."
+  },
+  {
+    "vocab_id": 387,
+    "sentence_jp": "この道[みち]は歩[ある]きやすいですよ。",
+    "sentence_en": "This path is easy to walk on."
+  },
+  {
+    "vocab_id": 390,
+    "sentence_jp": "先生[せんせい]はちゃんとしない生徒[せいと]を叱[しか]りました。",
+    "sentence_en": "The teacher scolded the student who was not behaving."
+  },
+  {
+    "vocab_id": 392,
+    "sentence_jp": "大[おお]きな音[おと]がして、びっくりしました。",
+    "sentence_en": "There was a loud noise and I was startled."
+  },
+  {
+    "vocab_id": 393,
+    "sentence_jp": "彼[かれ]はギターがとてもうまいです。",
+    "sentence_en": "He is very good at guitar."
+  },
+  {
+    "vocab_id": 394,
+    "sentence_jp": "明日[あした]の予定[よてい]を変[か]えることはできますか。",
+    "sentence_en": "Can I change tomorrow's plans?"
+  },
+  {
+    "vocab_id": 399,
+    "sentence_jp": "引[ひ]っ越[こ]してからしばらくは、新[あたら]しい生活[せいかつ]に慣[な]れるのが大変[たいへん]でした。",
+    "sentence_en": "For a while after moving, it was difficult to get used to the new life."
+  },
+  {
+    "vocab_id": 413,
+    "sentence_jp": "用事[ようじ]が済[す]んだら、連絡[れんらく]してください。",
+    "sentence_en": "Please contact me when your errand is done."
+  },
+  {
+    "vocab_id": 424,
+    "sentence_jp": "部屋[へや]を掃除[そうじ]する前[まえ]に、まず窓[まど]を開[あ]けてください。",
+    "sentence_en": "Before cleaning the room, first please open the window."
+  },
+  {
+    "vocab_id": 427,
+    "sentence_jp": "転[こ]んで、眼鏡[めがね]が折[お]れてしまいました。",
+    "sentence_en": "I fell and my glasses broke."
+  },
+  {
+    "vocab_id": 428,
+    "sentence_jp": "正[ただ]しい発音[はつおん]で日本語[にほんご]を話[はな]す練習[れんしゅう]をしています。",
+    "sentence_en": "I am practicing speaking Japanese with correct pronunciation."
+  },
+  {
+    "vocab_id": 437,
+    "sentence_jp": "料理[りょうり]には、適切[てきせつ]な道具[どうぐ]を使[つか]うことが大切[たいせつ]です。",
+    "sentence_en": "It is important to use the right tools for cooking."
+  },
+  {
+    "vocab_id": 439,
+    "sentence_jp": "試験[しけん]はそれほど難[むずか]しくなかったです。",
+    "sentence_en": "The exam was not that difficult."
+  },
+  {
+    "vocab_id": 450,
+    "sentence_jp": "就職[しゅうしょく]の面接[めんせつ]のために、新[あたら]しいスーツを買[か]いました。",
+    "sentence_en": "I bought a new suit for the job interview."
+  },
+  {
+    "vocab_id": 460,
+    "sentence_jp": "電車[でんしゃ]の時間[じかん]があるので、そろそろ出発[しゅっぱつ]しましょう。",
+    "sentence_en": "Since it's almost time for the train, let's get going soon."
+  },
+  {
+    "vocab_id": 467,
+    "sentence_jp": "市民[しみん]みんなで公園[こうえん]をきれいにする活動[かつどう]に参加[さんか]しました。",
+    "sentence_en": "I participated in an activity for citizens to clean up the park together."
+  },
+  {
+    "vocab_id": 468,
+    "sentence_jp": "書類[しょるい]をファックスで送[おく]ってください。",
+    "sentence_en": "Please send the documents by fax."
+  },
+  {
+    "vocab_id": 472,
+    "sentence_jp": "落[お]とした財布[さいふ]を駅[えき]で見[み]つけました。",
+    "sentence_en": "I found the wallet I had dropped at the station."
+  },
+  {
+    "vocab_id": 485,
+    "sentence_jp": "本[ほん]を読[よ]みおわったら、次[つぎ]の本[ほん]を選[えら]びます。",
+    "sentence_en": "When I finish reading the book, I will choose the next one."
+  },
+  {
+    "vocab_id": 489,
+    "sentence_jp": "お正月[しょうがつ]に古[ふる]い寺[てら]を訪[おとず]れました。",
+    "sentence_en": "I visited an old temple on New Year's."
+  },
+  {
+    "vocab_id": 490,
+    "sentence_jp": "日本[にほん]に来[き]て一年[いちねん]経[た]ち、生活[せいかつ]にすっかり慣[な]れました。",
+    "sentence_en": "A year has passed since I came to Japan, and I have completely gotten used to the life here."
+  },
+  {
+    "vocab_id": 498,
+    "sentence_jp": "面白[おもしろ]い漫画[まんが]を読[よ]んで、思[おも]わず笑[わら]いました。",
+    "sentence_en": "I read a funny manga and laughed without thinking."
+  },
+  {
+    "vocab_id": 499,
+    "sentence_jp": "引[ひ]っ越[こ]しの時[とき]、大[おお]きな家具[かぐ]を二階[にかい]まで運[はこ]びました。",
+    "sentence_en": "When moving, I carried large furniture up to the second floor."
+  },
+  {
+    "vocab_id": 502,
+    "sentence_jp": "入院[にゅういん]している祖母[そぼ]にお見舞い[おみまい]の花[はな]を持[も]って行[い]きました。",
+    "sentence_en": "I brought flowers to visit my hospitalized grandmother."
+  },
+  {
+    "vocab_id": 522,
+    "sentence_jp": "会議[かいぎ]に遅[おく]れないように、早[はや]めに家[いえ]を出[で]ました。",
+    "sentence_en": "I left home early so as not to be late to the meeting."
+  },
+  {
+    "vocab_id": 529,
+    "sentence_jp": "日本語[にほんご]の最初[さいしょ]の授業[じゅぎょう]はひらがなを覚[おぼ]えることでした。",
+    "sentence_en": "The first Japanese lesson was learning hiragana."
+  },
+  {
+    "vocab_id": 533,
+    "sentence_jp": "子供[こども]の頃[ころ]から古[ふる]いコインを集[あつ]めています。",
+    "sentence_en": "I have been collecting old coins since I was a child."
+  },
+  {
+    "vocab_id": 536,
+    "sentence_jp": "先輩[せんぱい]に仕事[しごと]のやり方[かた]を詳[くわ]しく教[おし]えてもらいました。",
+    "sentence_en": "My senior taught me in detail how to do the work."
+  },
+  {
+    "vocab_id": 543,
+    "sentence_jp": "日本[にほん]の文化[ぶんか]について深[ふか]く学[まな]ぶために、留学[りゅうがく]しました。",
+    "sentence_en": "I studied abroad to learn deeply about Japanese culture."
+  },
+  {
+    "vocab_id": 544,
+    "sentence_jp": "レストランで食事[しょくじ]をした後[あと]、カードで代金[だいきん]を払[はら]いました。",
+    "sentence_en": "After eating at the restaurant, I paid the bill by card."
+  },
+  {
+    "vocab_id": 545,
+    "sentence_jp": "日本[にほん]では靴[くつ]を脱[ぬ]いで家[いえ]に入[はい]る習慣[しゅうかん]があります。",
+    "sentence_en": "In Japan, there is a custom of taking off shoes before entering the house."
+  },
+  {
+    "vocab_id": 548,
+    "sentence_jp": "冬[ふゆ]になると、朝[あさ]は空気[くうき]がよく冷[ひ]えます。",
+    "sentence_en": "In winter, the morning air gets very cold."
+  },
+  {
+    "vocab_id": 553,
+    "sentence_jp": "雨[あめ]の日[ひ]も勉強[べんきょう]を続[つづ]けることが合格[ごうかく]につながります。",
+    "sentence_en": "Continuing to study even on rainy days leads to passing."
+  },
+  {
+    "vocab_id": 561,
+    "sentence_jp": "学校[がっこう]でいじめられている子[こ]を守[まも]るために声[こえ]を上[あ]げることが大切[たいせつ]です。",
+    "sentence_en": "It is important to speak up to protect children who are being bullied at school."
+  },
+  {
+    "vocab_id": 563,
+    "sentence_jp": "田中[たなか]君[くん]、この問題[もんだい]の答[こた]えを教[おし]えてもらえますか。",
+    "sentence_en": "Tanaka-kun, could you tell me the answer to this question?"
+  },
+  {
+    "vocab_id": 570,
+    "sentence_jp": "この問題[もんだい]についてよく考[かんが]えてから、返事[へんじ]をします。",
+    "sentence_en": "I will think carefully about this issue before responding."
+  },
+  {
+    "vocab_id": 573,
+    "sentence_jp": "料理[りょうり]の仕方[しかた]を料理本[りょうりほん]で調[しら]べました。",
+    "sentence_en": "I looked up how to cook in a cookbook."
+  },
+  {
+    "vocab_id": 575,
+    "sentence_jp": "疲[つか]れているほど、ぐっすり眠[ねむ]れます。",
+    "sentence_en": "The more tired you are, the better you sleep."
+  },
+  {
+    "vocab_id": 577,
+    "sentence_jp": "失敗[しっぱい]から学[まな]ぶことが、成長[せいちょう]につながります。",
+    "sentence_en": "Learning from failure leads to growth."
+  },
+  {
+    "vocab_id": 579,
+    "sentence_jp": "会社[かいしゃ]の都合[つごう]で、大阪[おおさか]の支店[してん]に移[うつ]ることになりました。",
+    "sentence_en": "Due to company circumstances, I have been transferred to the Osaka branch."
+  },
+  {
+    "vocab_id": 582,
+    "sentence_jp": "教授[きょうじゅ]の研究室[けんきゅうしつ]に行[い]って、レポートを提出[ていしゅつ]しました。",
+    "sentence_en": "I went to the professor's office and submitted my report."
+  },
+  {
+    "vocab_id": 583,
+    "sentence_jp": "父[ちち]は毎日[まいにち]工場[こうじょう]で働[はたら]いています。",
+    "sentence_en": "My father works at a factory every day."
+  },
+  {
+    "vocab_id": 584,
+    "sentence_jp": "先生[せんせい]が新[あたら]しい生徒[せいと]をクラスに紹介[しょうかい]しました。",
+    "sentence_en": "The teacher introduced the new student to the class."
+  },
+  {
+    "vocab_id": 596,
+    "sentence_jp": "夏[なつ]休[やす]みに水泳[すいえい]を習[なら]いたいと思[おも]っています。",
+    "sentence_en": "I am thinking of learning swimming during the summer vacation."
+  },
+  {
+    "vocab_id": 611,
+    "sentence_jp": "道[みち]の真[まん]中[なか]に大[おお]きな石[いし]が落[お]ちていました。",
+    "sentence_en": "There was a big stone in the middle of the road."
+  },
+  {
+    "vocab_id": 619,
+    "sentence_jp": "熱[ねつ]を下[さ]げるために、薬[くすり]を飲[の]みました。",
+    "sentence_en": "I took medicine to bring down my fever."
+  },
+  {
+    "vocab_id": 622,
+    "sentence_jp": "手術[しゅじゅつ]のために一週間[いっしゅうかん]入院[にゅういん]することになりました。",
+    "sentence_en": "I have to be hospitalized for a week for an operation."
+  },
+  {
+    "vocab_id": 627,
+    "sentence_jp": "看護婦[かんごふ]さんがやさしく注射[ちゅうしゃ]をしてくれました。",
+    "sentence_en": "The nurse gave me an injection gently."
+  },
+  {
+    "vocab_id": 629,
+    "sentence_jp": "進路[しんろ]について先生[せんせい]に相談[そうだん]しました。",
+    "sentence_en": "I consulted my teacher about my future path."
+  },
+  {
+    "vocab_id": 634,
+    "sentence_jp": "この手紙[てがみ]を日本語[にほんご]に翻訳[ほんやく]してもらえますか。",
+    "sentence_en": "Could you translate this letter into Japanese?"
+  },
+  {
+    "vocab_id": 635,
+    "sentence_jp": "夜[よる]は家族[かぞく]と一緒[いっしょ]に食事[しょくじ]をするようにしています。",
+    "sentence_en": "I make it a habit to have meals with my family in the evening."
+  },
+  {
+    "vocab_id": 642,
+    "sentence_jp": "卒業式[そつぎょうしき]の後[あと]、クラスのみんなが教室[きょうしつ]に集[あつ]まりました。",
+    "sentence_en": "After the graduation ceremony, everyone in the class gathered in the classroom."
+  },
+  {
+    "vocab_id": 650,
+    "sentence_jp": "急[きゅう]な用事[ようじ]ができて、会議[かいぎ]を途中[とちゅう]で抜[ぬ]けました。",
+    "sentence_en": "An urgent matter came up and I had to leave the meeting midway."
+  },
+  {
+    "vocab_id": 657,
+    "sentence_jp": "アルコールが入[はい]っていない飲[の]み物[もの]をください。",
+    "sentence_en": "Please give me a drink without alcohol."
+  },
+  {
+    "vocab_id": 658,
+    "sentence_jp": "このソフトを使[つか]えば、写真[しゃしん]をきれいに編集[へんしゅう]できます。",
+    "sentence_en": "If you use this software, you can edit photos beautifully."
+  },
+  {
+    "vocab_id": 659,
+    "sentence_jp": "七五三[しちごさん]のお祝[いわ]いに、家族[かぞく]みんなで神社[じんじゃ]にお参[まい]りしました。",
+    "sentence_en": "For the Shichi-go-san celebration, the whole family went to pray at the shrine."
+  },
+  {
+    "vocab_id": 661,
+    "sentence_jp": "来月[らいげつ]の旅行[りょこう]がとても楽[たの]しみです。",
+    "sentence_en": "I am really looking forward to next month's trip."
+  },
+  {
+    "vocab_id": 667,
+    "sentence_jp": "たまに甘[あま]いものを食[た]べたくなります。",
+    "sentence_en": "I occasionally want to eat something sweet."
+  },
+  {
+    "vocab_id": 678,
+    "sentence_jp": "誕生日[たんじょうび]のプレゼントの箱[はこ]を開[あ]けました。",
+    "sentence_en": "I opened the birthday present box."
+  },
+  {
+    "vocab_id": 685,
+    "sentence_jp": "あそこに見[み]える山[やま]が富士山[ふじさん]です。",
+    "sentence_en": "The mountain visible over there is Mt. Fuji."
+  },
+  {
+    "vocab_id": 686,
+    "sentence_jp": "休[やす]みの日[ひ]は家[いえ]でゲームをして遊[あそ]びます。",
+    "sentence_en": "On days off, I play games at home."
+  },
+  {
+    "vocab_id": 696,
+    "sentence_jp": "あなたの考[かんが]えを聞[き]かせてください。",
+    "sentence_en": "Please tell me your thoughts."
+  },
+  {
+    "vocab_id": 700,
+    "sentence_jp": "あの、少[すこ]し聞[き]いてもよろしいですか。",
+    "sentence_en": "Um, may I ask you something?"
+  },
+  {
+    "vocab_id": 701,
+    "sentence_jp": "夏[なつ]は暑[あつ]いので、夜[よる]にもシャワーを浴[あ]びます。",
+    "sentence_en": "It is hot in summer, so I also shower at night."
+  },
+  {
+    "vocab_id": 713,
+    "sentence_jp": "「お腹[なか]は空[す]いていますか？」「いいえ、さっき食[た]べました。」",
+    "sentence_en": "\"Are you hungry?\" \"No, I ate just a moment ago.\""
+  },
+  {
+    "vocab_id": 714,
+    "sentence_jp": "先生[せんせい]は授業[じゅぎょう]が終[お]わる前[まえ]に、来週[らいしゅう]のテストのことを言[い]いました。",
+    "sentence_en": "The teacher mentioned next week's test before the class ended."
+  },
+  {
+    "vocab_id": 717,
+    "sentence_jp": "毎朝[まいあさ]、電車[でんしゃ]に乗[の]って会社[かいしゃ]に行[い]きます。",
+    "sentence_en": "Every morning, I take the train to go to work."
+  },
+  {
+    "vocab_id": 719,
+    "sentence_jp": "このスーツはいくらでしたか。",
+    "sentence_en": "How much was this suit?"
+  },
+  {
+    "vocab_id": 721,
+    "sentence_jp": "熱[ねつ]が高[たか]かったので、医者[いしゃ]に診[み]てもらいました。",
+    "sentence_en": "My fever was high, so I had a doctor examine me."
+  },
+  {
+    "vocab_id": 722,
+    "sentence_jp": "その椅子[いす]は壊[こわ]れているので、座[すわ]らないでください。",
+    "sentence_en": "Don't sit on that chair because it is broken."
+  },
+  {
+    "vocab_id": 725,
+    "sentence_jp": "この問題[もんだい]だけで一[いち]時間[じかん]もかかりました。",
+    "sentence_en": "This one problem alone took a whole hour."
+  },
+  {
+    "vocab_id": 729,
+    "sentence_jp": "試験[しけん]まであと五日[いつか]しかありません。",
+    "sentence_en": "There are only five days left until the exam."
+  },
+  {
+    "vocab_id": 730,
+    "sentence_jp": "母[はは]と一緒[いっしょ]に料理[りょうり]をするのが好[す]きです。",
+    "sentence_en": "I like cooking together with my mother."
+  },
+  {
+    "vocab_id": 734,
+    "sentence_jp": "今[いま]から勉強[べんきょう]を始[はじ]めれば、試験[しけん]に間[ま]に合[あ]います。",
+    "sentence_en": "If you start studying now, you will make it in time for the exam."
+  },
+  {
+    "vocab_id": 735,
+    "sentence_jp": "この文[ぶん]の意味[いみ]がよくわかりません。",
+    "sentence_en": "I don't quite understand the meaning of this sentence."
+  },
+  {
+    "vocab_id": 738,
+    "sentence_jp": "スーパーの入口[いりぐち]に大[おお]きな花[はな]の飾[かざ]りがあります。",
+    "sentence_en": "There is a big flower decoration at the supermarket entrance."
+  },
+  {
+    "vocab_id": 758,
+    "sentence_jp": "英語[えいご]のニュースを毎日[まいにち]聞[き]いて、リスニングを練習[れんしゅう]しています。",
+    "sentence_en": "I listen to English news every day to practice listening."
+  },
+  {
+    "vocab_id": 760,
+    "sentence_jp": "駅[えき]の近[ちか]くに新[あたら]しいカフェができました。",
+    "sentence_en": "A new café opened near the station."
+  },
+  {
+    "vocab_id": 769,
+    "sentence_jp": "コンサートに大勢[おおぜい]のファンが集[あつ]まりました。",
+    "sentence_en": "A large crowd of fans gathered at the concert."
+  },
+  {
+    "vocab_id": 780,
+    "sentence_jp": "先生[せんせい]が料理[りょうり]の仕方[しかた]を丁寧[ていねい]に教[おし]えてくれました。",
+    "sentence_en": "The teacher kindly taught me how to cook."
+  },
+  {
+    "vocab_id": 782,
+    "sentence_jp": "このバスはとても遅[おそ]いので、次[つぎ]の電車[でんしゃ]に乗[の]ります。",
+    "sentence_en": "This bus is very slow, so I will take the next train."
+  },
+  {
+    "vocab_id": 800,
+    "sentence_jp": "新[あたら]しい単語[たんご]を覚[おぼ]えるために、毎日[まいにち]カードを使[つか]っています。",
+    "sentence_en": "I use flashcards every day to memorize new vocabulary."
+  },
+  {
+    "vocab_id": 806,
+    "sentence_jp": "仕事[しごと]が終[お]わったら、すぐに電話[でんわ]します。",
+    "sentence_en": "I will call you as soon as work is over."
+  },
+  {
+    "vocab_id": 807,
+    "sentence_jp": "弟[おとうと]はピアノで音楽[おんがく]を演奏[えんそう]するのが得意[とくい]です。",
+    "sentence_en": "My younger brother is good at playing music on the piano."
+  },
+  {
+    "vocab_id": 823,
+    "sentence_jp": "先生[せんせい]に手紙[てがみ]を書[か]くつもりです。",
+    "sentence_en": "I intend to write a letter to my teacher."
+  },
+  {
+    "vocab_id": 826,
+    "sentence_jp": "壁[かべ]に絵[え]を掛[か]けて、部屋[へや]をおしゃれにしました。",
+    "sentence_en": "I hung a picture on the wall and made the room stylish."
+  },
+  {
+    "vocab_id": 829,
+    "sentence_jp": "傘[かさ]を持[も]っていなかったので、先生[せんせい]が貸[か]してくれました。",
+    "sentence_en": "I didn't have an umbrella, so the teacher lent me one."
+  },
+  {
+    "vocab_id": 835,
+    "sentence_jp": "来年[らいねん]の三[さん]月[がつ]に大学[だいがく]を卒業[そつぎょう]します。",
+    "sentence_en": "I will graduate from university in March next year."
+  },
+  {
+    "vocab_id": 845,
+    "sentence_jp": "毎週[まいしゅう]火曜日[かようび]に日本語[にほんご]のクラスがあります。",
+    "sentence_en": "I have Japanese class every Tuesday."
+  },
+  {
+    "vocab_id": 848,
+    "sentence_jp": "引[ひ]っ越[こ]し用[よう]のトラックを会社[かいしゃ]から借[か]りました。",
+    "sentence_en": "I borrowed a moving truck from the company."
+  },
+  {
+    "vocab_id": 850,
+    "sentence_jp": "彼女[かのじょ]の病気[びょうき]は軽[かる]いので、すぐに回復[かいふく]できます。",
+    "sentence_en": "Her illness is minor, so she will recover soon."
+  },
+  {
+    "vocab_id": 852,
+    "sentence_jp": "カレンダーに大切[たいせつ]な予定[よてい]を書[か]き込[こ]みました。",
+    "sentence_en": "I wrote important plans on the calendar."
+  },
+  {
+    "vocab_id": 861,
+    "sentence_jp": "音楽[おんがく]を聞[き]きながら、勉強[べんきょう]するのが好[す]きです。",
+    "sentence_en": "I like to study while listening to music."
+  },
+  {
+    "vocab_id": 862,
+    "sentence_jp": "北[きた]に向[む]かって歩[ある]くと、駅[えき]があります。",
+    "sentence_en": "If you walk north, there is a station."
+  },
+  {
+    "vocab_id": 888,
+    "sentence_jp": "辛[から]いものを食[た]べると、口[くち]がひりひりします。",
+    "sentence_en": "When I eat spicy food, my mouth tingles."
+  },
+  {
+    "vocab_id": 894,
+    "sentence_jp": "トンネルの中[なか]は暗[くら]くて、少[すこ]し怖[こわ]かったです。",
+    "sentence_en": "Inside the tunnel, it was dark and a little scary."
+  },
+  {
+    "vocab_id": 898,
+    "sentence_jp": "先生[せんせい]が後[あと]で研究室[けんきゅうしつ]に来[く]るように言[い]いました。",
+    "sentence_en": "The teacher told me to come to the office later."
+  },
+  {
+    "vocab_id": 906,
+    "sentence_jp": "来年[らいねん]、姉[あね]が結婚[けっこん]するので、式[しき]の準備[じゅんび]を手伝[てつだ]っています。",
+    "sentence_en": "My older sister is getting married next year, so I am helping with the ceremony preparations."
+  },
+  {
+    "vocab_id": 908,
+    "sentence_jp": "玄関[げんかん]に大[おお]きな傘立[かさた]てがあります。",
+    "sentence_en": "There is a large umbrella stand at the entrance."
+  },
+  {
+    "vocab_id": 910,
+    "sentence_jp": "卵[たまご]を六個[ろっこ]使[つか]って、ケーキを作[つく]りました。",
+    "sentence_en": "I used six eggs to make a cake."
+  },
+  {
+    "vocab_id": 911,
+    "sentence_jp": "この本[ほん]のシリーズは全部[ぜんぶ]で五[ご]冊[さつ]あります。",
+    "sentence_en": "This book series has five volumes in total."
+  },
+  {
+    "vocab_id": 917,
+    "sentence_jp": "先生[せんせい]の声[こえ]は大[おお]きくて、教室[きょうしつ]の後[うし]ろまでよく聞[き]こえます。",
+    "sentence_en": "The teacher's voice is loud and can be heard clearly from the back of the classroom."
+  },
+  {
+    "vocab_id": 918,
+    "sentence_jp": "今日[きょう]は寒[さむ]いので、厚[あつ]いコートを着[き]ました。",
+    "sentence_en": "It is cold today, so I wore a thick coat."
+  },
+  {
+    "vocab_id": 921,
+    "sentence_jp": "午後[ごご]三[さん]時[じ]から会議[かいぎ]があります。",
+    "sentence_en": "There is a meeting from 3 PM."
+  },
+  {
+    "vocab_id": 922,
+    "sentence_jp": "今月[こんげつ]の九日[ここのか]に大切[たいせつ]な試験[しけん]があります。",
+    "sentence_en": "There is an important exam on the ninth of this month."
+  },
+  {
+    "vocab_id": 925,
+    "sentence_jp": "先生[せんせい]の質問[しつもん]に正確[せいかく]に答[こた]えることができました。",
+    "sentence_en": "I was able to answer the teacher's question accurately."
+  },
+  {
+    "vocab_id": 926,
+    "sentence_jp": "こちらはどうやって使[つか]うのですか。",
+    "sentence_en": "How do you use this?"
+  },
+  {
+    "vocab_id": 927,
+    "sentence_jp": "出口[でぐち]はこっちですよ。",
+    "sentence_en": "The exit is this way."
+  },
+  {
+    "vocab_id": 928,
+    "sentence_jp": "コップに水[みず]を入[い]れてください。",
+    "sentence_en": "Please put water in the glass."
+  },
+  {
+    "vocab_id": 939,
+    "sentence_jp": "今週[こんしゅう]中[じゅう]にレポートを提出[ていしゅつ]しなければなりません。",
+    "sentence_en": "I have to submit my report by the end of this week."
+  },
+  {
+    "vocab_id": 959,
+    "sentence_jp": "毎朝[まいあさ]七[しち]時[じ]に起[お]きて、朝[あさ]ごはんを食[た]べます。",
+    "sentence_en": "I wake up every morning at seven o'clock and eat breakfast."
+  },
+  {
+    "vocab_id": 972,
+    "sentence_jp": "水[みず]をやらないと、植物[しょくぶつ]は死[し]んでしまいます。",
+    "sentence_en": "If you don't water them, plants will die."
+  },
+  {
+    "vocab_id": 990,
+    "sentence_jp": "この食堂[しょくどう]は安[やす]くておいしいと評判[ひょうばん]です。",
+    "sentence_en": "This cafeteria has a reputation for being cheap and delicious."
+  },
+  {
+    "vocab_id": 1002,
+    "sentence_jp": "問題[もんだい]が起[お]きたら、すぐに先生[せんせい]に知[し]らせてください。",
+    "sentence_en": "If a problem occurs, please inform the teacher immediately."
+  },
+  {
+    "vocab_id": 1007,
+    "sentence_jp": "スープを飲[の]む時[とき]はスプーンを使[つか]います。",
+    "sentence_en": "I use a spoon when drinking soup."
+  },
+  {
+    "vocab_id": 1009,
+    "sentence_jp": "今日[きょう]は黒[くろ]いズボンをはいてきました。",
+    "sentence_en": "Today I wore black trousers."
+  },
+  {
+    "vocab_id": 1015,
+    "sentence_jp": "冬[ふゆ]になると、暖[あたた]かいセーターが必要[ひつよう]です。",
+    "sentence_en": "When winter comes, a warm sweater is necessary."
+  },
+  {
+    "vocab_id": 1022,
+    "sentence_jp": "先週[せんしゅう]、体調[たいちょう]が悪[わる]くて、学校[がっこう]を休[やす]みました。",
+    "sentence_en": "Last week, I felt unwell and was absent from school."
+  },
+  {
+    "vocab_id": 1023,
+    "sentence_jp": "先生[せんせい]が私[わたし]の作文[さくぶん]を丁寧[ていねい]に直[なお]してくれました。",
+    "sentence_en": "The teacher kindly corrected my essay."
+  },
+  {
+    "vocab_id": 1028,
+    "sentence_jp": "シャワーを浴[あ]びて、そして夕食[ゆうしょく]を食[た]べました。",
+    "sentence_en": "I took a shower, and then ate dinner."
+  },
+  {
+    "vocab_id": 1029,
+    "sentence_jp": "そこにあるかばんは私[わたし]のものではありません。",
+    "sentence_en": "The bag over there is not mine."
+  },
+  {
+    "vocab_id": 1039,
+    "sentence_jp": "駐車場[ちゅうしゃじょう]に車[くるま]が五[ご]台[だい]止[と]まっています。",
+    "sentence_en": "There are five cars parked in the parking lot."
+  },
+  {
+    "vocab_id": 1046,
+    "sentence_jp": "毎日[まいにち]働[はたら]きながら勉強[べんきょう]するのは大変[たいへん]ですが、頑張[がんば]っています。",
+    "sentence_en": "It is hard to work and study every day, but I am doing my best."
+  },
+  {
+    "vocab_id": 1048,
+    "sentence_jp": "もう少[すこ]しだけ待[ま]ってください。",
+    "sentence_en": "Please wait just a little longer."
+  },
+  {
+    "vocab_id": 1058,
+    "sentence_jp": "駅[えき]のホームでたばこを吸[す]うことは禁止[きんし]されています。",
+    "sentence_en": "Smoking cigarettes on the station platform is prohibited."
+  },
+  {
+    "vocab_id": 1070,
+    "sentence_jp": "私[わたし]が言[い]いたいことは、それとは違[ちが]います。",
+    "sentence_en": "What I want to say is different from that."
+  },
+  {
+    "vocab_id": 1090,
+    "sentence_jp": "夏[なつ]の暑[あつ]い日[ひ]には、冷[つめ]たいアイスクリームが食[た]べたくなります。",
+    "sentence_en": "On a hot summer day, I want to eat cold ice cream."
+  },
+  {
+    "vocab_id": 1093,
+    "sentence_jp": "箱[はこ]をテープで閉[と]じました。",
+    "sentence_en": "I sealed the box with tape."
+  },
+  {
+    "vocab_id": 1094,
+    "sentence_jp": "先生[せんせい]はテープレコーダーを使[つか]って発音[はつおん]の授業[じゅぎょう]をしました。",
+    "sentence_en": "The teacher used a tape recorder for the pronunciation lesson."
+  },
+  {
+    "vocab_id": 1095,
+    "sentence_jp": "食事[しょくじ]の前[まえ]にテーブルをきれいに拭[ふ]きました。",
+    "sentence_en": "I wiped the table clean before the meal."
+  },
+  {
+    "vocab_id": 1102,
+    "sentence_jp": "母[はは]の誕生日[たんじょうび]のプレゼントをデパートで買[か]いました。",
+    "sentence_en": "I bought my mother's birthday present at the department store."
+  },
+  {
+    "vocab_id": 1103,
+    "sentence_jp": "雨[あめ]が降[ふ]っています。でも、試合[しあい]は続[つづ]いています。",
+    "sentence_en": "It is raining. But the match is continuing."
+  },
+  {
+    "vocab_id": 1105,
+    "sentence_jp": "夜[よる]、テレビでニュースを見[み]るのが習慣[しゅうかん]です。",
+    "sentence_en": "It is a habit to watch the news on TV at night."
+  },
+  {
+    "vocab_id": 1115,
+    "sentence_jp": "どうして昨日[きのう]学校[がっこう]を休[やす]んだのですか。",
+    "sentence_en": "Why were you absent from school yesterday?"
+  },
+  {
+    "vocab_id": 1116,
+    "sentence_jp": "どうぞ、中[なか]にお入[はい]りください。",
+    "sentence_en": "Please come inside."
+  },
+  {
+    "vocab_id": 1132,
+    "sentence_jp": "先[さき]ほど電話[でんわ]をくださったのはどなたですか。",
+    "sentence_en": "Who was it that called earlier?"
+  },
+  {
+    "vocab_id": 1138,
+    "sentence_jp": "毎週[まいしゅう]土曜日[どようび]に、家族[かぞく]で近[ちか]くのスーパーに買[か]い物[もの]に行[い]きます。",
+    "sentence_en": "Every Saturday, I go grocery shopping with my family at the nearby supermarket."
+  },
+  {
+    "vocab_id": 1151,
+    "sentence_jp": "なぜ電車[でんしゃ]が遅[おく]れているのかわかりません。",
+    "sentence_en": "I don't know why the train is delayed."
+  },
+  {
+    "vocab_id": 1157,
+    "sentence_jp": "入院[にゅういん]してから七日[なのか]が経[た]ちました。",
+    "sentence_en": "Seven days have passed since I was hospitalized."
+  },
+  {
+    "vocab_id": 1160,
+    "sentence_jp": "人気[にんき]のラーメン店[てん]の前[まえ]に大勢[おおぜい]の人[ひと]が並[なら]んでいます。",
+    "sentence_en": "A large number of people are lining up in front of the popular ramen restaurant."
+  },
+  {
+    "vocab_id": 1188,
+    "sentence_jp": "朝[あさ]は毎日[まいにち]コーヒーを二[に]杯[はい]飲[の]みます。",
+    "sentence_en": "I drink two cups of coffee every morning."
+  },
+  {
+    "vocab_id": 1222,
+    "sentence_jp": "電話[でんわ]番号[ばんごう]を正[ただ]しく入力[にゅうりょく]してください。",
+    "sentence_en": "Please enter the phone number correctly."
+  },
+  {
+    "vocab_id": 1240,
+    "sentence_jp": "平仮名[ひらがな]を全部[ぜんぶ]覚[おぼ]えると、日本語[にほんご]の勉強[べんきょう]がしやすくなります。",
+    "sentence_en": "Once you memorize all the hiragana, studying Japanese becomes easier."
+  },
+  {
+    "vocab_id": 1260,
+    "sentence_jp": "宿題[しゅくだい]は教科書[きょうかしょ]の二十[にじゅう]ページを読[よ]むことです。",
+    "sentence_en": "The homework is to read page twenty of the textbook."
+  },
+  {
+    "vocab_id": 1280,
+    "sentence_jp": "本棚[ほんだな]にたくさんの本[ほん]が並[なら]んでいます。",
+    "sentence_en": "Many books are lined up on the bookshelf."
+  },
+  {
+    "vocab_id": 1300,
+    "sentence_jp": "空[そら]に丸[まる]い月[つき]が出[で]ています。",
+    "sentence_en": "A round moon is out in the sky."
+  },
+  {
+    "vocab_id": 1308,
+    "sentence_jp": "パスポートを受付[うけつけ]で見[み]せてください。",
+    "sentence_en": "Please show your passport at the reception desk."
+  },
+  {
+    "vocab_id": 1312,
+    "sentence_jp": "春[はる]になると、木[き]の葉[は]が鮮[あざ]やかな緑[みどり]になります。",
+    "sentence_en": "When spring comes, the tree leaves turn a vibrant green."
+  },
+  {
+    "vocab_id": 1316,
+    "sentence_jp": "窓[まど]から外[そと]の景色[けしき]を見[み]るのが好[す]きです。",
+    "sentence_en": "I like looking at the outside scenery through the window."
+  },
+  {
+    "vocab_id": 1317,
+    "sentence_jp": "みんなで力[ちから]を合[あ]わせれば、難[むずか]しい問題[もんだい]も解[と]けます。",
+    "sentence_en": "If everyone works together, even difficult problems can be solved."
+  },
+  {
+    "vocab_id": 1328,
+    "sentence_jp": "もしもし、山田[やまだ]さんはいらっしゃいますか。",
+    "sentence_en": "Hello, is Mr. Yamada there?"
+  },
+  {
+    "vocab_id": 1333,
+    "sentence_jp": "試験[しけん]の問題[もんだい]が難[むずか]しかったので、最後[さいご]まで時間[じかん]がかかりました。",
+    "sentence_en": "The exam questions were difficult, so it took time until the very end."
+  },
+  {
+    "vocab_id": 1359,
+    "sentence_jp": "夜[よる]遅[おそ]くまで本[ほん]を読[よ]んでいたら、眠[ねむ]くなりました。",
+    "sentence_en": "I got sleepy from reading books until late at night."
+  },
+  {
+    "vocab_id": 1364,
+    "sentence_jp": "車[くるま]の中[なか]でラジオのニュースを聞[き]きました。",
+    "sentence_en": "I listened to the news on the radio in the car."
+  },
+  {
+    "vocab_id": 1367,
+    "sentence_jp": "大学[だいがく]には世界[せかい]各国[かっこく]から来[き]た留学生[りゅうがくせい]がたくさんいます。",
+    "sentence_en": "There are many international students at the university from countries all over the world."
+  },
+  {
+    "vocab_id": 1373,
+    "sentence_jp": "祖父[そふ]はレコードで昔[むかし]の音楽[おんがく]を聞[き]くのが好[す]きです。",
+    "sentence_en": "My grandfather likes listening to old music on records."
+  },
+  {
+    "vocab_id": 1374,
+    "sentence_jp": "結婚[けっこん]記念日[きねんび]に、素敵[すてき]なレストランで食事[しょくじ]をしました。",
+    "sentence_en": "On our wedding anniversary, we had a meal at a nice restaurant."
+  },
+  {
+    "vocab_id": 1375,
+    "sentence_jp": "発表会[はっぴょうかい]に向[む]けて、毎日[まいにち]ピアノを練習[れんしゅう]しています。",
+    "sentence_en": "I practice piano every day for the recital."
+  }
+]

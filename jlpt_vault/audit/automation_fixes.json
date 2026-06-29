@@ -1,0 +1,110 @@
+[
+  {
+    "db": "vault_n1.db",
+    "sentence_id": 120,
+    "sentence_jp": "近年、消費者の購入[こうにゅう]行動はオンラインへとシフトしていることが明らかになっている。",
+    "sentence_en": "In recent years, it has become evident that consumer purchasing behavior is shifting towards online platforms."
+  },
+  {
+    "db": "vault_n1.db",
+    "sentence_id": 1415,
+    "sentence_jp": "彼は暗い道を歩いているとき、突然の音に怯[おび]えてしまった。",
+    "sentence_en": "He was startled by a sudden noise while walking down a dark street."
+  },
+  {
+    "db": "vault_n1.db",
+    "sentence_id": 1416,
+    "sentence_jp": "社会における不安要素が増加する中で、多くの人々が日常生活の中で怯[おび]えることが多くなっている。",
+    "sentence_en": "As sources of anxiety in society increase, many people become frightened more often in daily life."
+  },
+  {
+    "db": "vault_n1.db",
+    "sentence_id": 2397,
+    "sentence_jp": "友達に欺[あざむ]かれて、また同じ失敗を繰り返してしまった。",
+    "sentence_en": "I was deceived by my friend and ended up making the same mistake again."
+  },
+  {
+    "db": "vault_n1.db",
+    "sentence_id": 2398,
+    "sentence_jp": "社会においては、他者を欺[あざむ]く行為がしばしば見受けられ、その影響は計り知れない。",
+    "sentence_en": "In society, acts of deceiving others are often observed, and their consequences are immeasurable."
+  },
+  {
+    "db": "vault_n1.db",
+    "sentence_id": 1501,
+    "sentence_jp": "イベントの後[あと]で、会場[かいじょう]のゴミ[ごみ]回収[かいしゅう]を手伝[てつだ]いました。",
+    "sentence_en": "After the event, I helped collect trash at the venue."
+  },
+  {
+    "db": "vault_n1.db",
+    "sentence_id": 5077,
+    "sentence_jp": "この箱[はこ]の体積[たいせき]は、一[いち]立方[りっぽう]メートルです。",
+    "sentence_en": "The volume of this box is one cubic meter."
+  },
+  {
+    "db": "vault_n2.db",
+    "sentence_id": 555,
+    "sentence_jp": "旅行の前に、神社で拝[おが]んでから行こうと思っている。",
+    "sentence_en": "Before the trip, I'm thinking of praying at the shrine."
+  },
+  {
+    "db": "vault_n2.db",
+    "sentence_id": 599,
+    "sentence_jp": "友達が急に背後から脅[おど]かしてきて、びっくりしたよ。",
+    "sentence_en": "My friend suddenly scared me from behind, and I was so surprised."
+  },
+  {
+    "db": "vault_n2.db",
+    "sentence_id": 600,
+    "sentence_jp": "彼は私を脅[おど]かすことで、冗談を言っているつもりだったようですが、私は本当に驚きました。",
+    "sentence_en": "It seems that he intended to joke by scaring me, but I was genuinely surprised."
+  },
+  {
+    "db": "vault_n2.db",
+    "sentence_id": 1413,
+    "sentence_jp": "新[あたら]しい分野[ぶんや]を探[さぐ]るのは、とても楽[たの]しいことです。",
+    "sentence_en": "Exploring a new field is very enjoyable."
+  },
+  {
+    "db": "vault_n2.db",
+    "sentence_id": 2115,
+    "sentence_jp": "そのころ、毎日[まいにち]アルバイトに通[かよ]っていました。",
+    "sentence_en": "Around that time, I went to my part-time job every day."
+  },
+  {
+    "db": "vault_n2.db",
+    "sentence_id": 2661,
+    "sentence_jp": "家族[かぞく]と謎謎[なぞなぞ]を解[と]くのが好[す]きです。",
+    "sentence_en": "I enjoy solving riddles with my family."
+  },
+  {
+    "db": "vault_n45.db",
+    "sentence_id": 645,
+    "sentence_jp": "雨[あめ]の日[ひ]は、家[いえ]の中[なか]で遊[あそ]びをします。",
+    "sentence_en": "On rainy days, we play indoors."
+  },
+  {
+    "db": "vault_n45.db",
+    "sentence_id": 983,
+    "sentence_jp": "運動[うんどう]をすると、気分[きぶん]が上[あ]がります。",
+    "sentence_en": "When I exercise, my mood lifts."
+  },
+  {
+    "db": "vault_n45.db",
+    "sentence_id": 1379,
+    "sentence_jp": "今朝[けさ]は六[ろく]時[じ]に起[お]きました。",
+    "sentence_en": "This morning I woke up at six o'clock."
+  },
+  {
+    "db": "vault_n45.db",
+    "sentence_id": 2239,
+    "sentence_jp": "毎日[まいにち]、一[いち]時間[じかん]日本語[にほんご]を勉強[べんきょう]します。",
+    "sentence_en": "I study Japanese for one hour every day."
+  },
+  {
+    "db": "vault_n45.db",
+    "sentence_id": 1721,
+    "sentence_jp": "小学生[しょうがくせい]のころ、近所[きんじょ]に友達[ともだち]がたくさんいました。",
+    "sentence_en": "When I was in elementary school, I had many friends in the neighborhood."
+  }
+]
